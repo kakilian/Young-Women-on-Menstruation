@@ -1,44 +1,43 @@
 /* Google fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet");
 
-/* <uniquifier>: Use a unique and descriptive class name*/
-/* <weight>: Use a value from 200 to 900*/
 
-.source-serif 4-<uniquifier> {
-  font-family: "Source Serif 4", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
+    /* Asterisk wildcard selector to override default styles added by the browser */
 
-/* Asterisk wildcard selector to override default styles added by the browser */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-/*General styles */
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
 
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    color: orange
-}
+    /*General styles */
 
-/*Header */
-header {
-    background-color: pink;
-}
-/*Main content */
-main {
-    background-color: lightblue;
-    /*Make the body take up any surplus space to push footer down */
-    flex: 1 0 auto;
-}
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        color: rgb(119, 99, 61);
+        font-family: 'lato sans-serif';
+    }
 
-/*Footer */
-footer {
-    background-color: lightsalmon;
-    
-}
+    /*Header */
+    header {
+        background-color: rgb(179, 114, 170);
+    }
+
+    h1 {
+        font-family: Oswald , sans-serif
+    }
+
+    /*Main content */
+    main {
+        background-color: rgb(55, 65, 68);
+        /*Make the body take up any surplus space to push footer down */
+        flex: 1 0 auto;
+    }
+
+    /*Footer */
+    footer {
+        background-color: lightsalmon;
+
+    }
