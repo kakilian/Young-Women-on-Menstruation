@@ -1,39 +1,80 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Self-help logo](documentation/girl_logo.png)
 
-Welcome,
-
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
 ---
 
-Happy coding!
+
+
+# Menstruation Guide for the pre-teen, young woman.
+
+        I simple goto for young woman, to help support them, in a natural body transformation, to encourage self-care, and how to look after yourself. Walking away from myths from possibly, the older generation.
+
+        This site can be accessed with this link [link](https://)
+
+## User Stories
+
+### First Time Visitors Goals:
+
+        *As a first time Visitor, I want to be simple and easily understood. That they are able to understood without feeling embrassed or ashamed of their bodies. To be able to reach out when they dont quite understand or have anyone that they trust to ask. That they can quietly read, simply written text and are able to ask openly questions, that maybe they feel they cant do at home. Learning to feel the bodily boundaries that they will discover of time.
+
+        *As a first time Visitor, I want to be able to easily navigate through the website, so I can find the answers, or information I am looking for, or new to learn advice.
+
+        *As a first time Visitor, I want to see if this site is trustworthy, and if their are others like myself who have used the site prior, and what their feedback is like.
+
+
+### Returning Visitors Goals:
+
+        *As a returning Visitor to the website, I would know that asking questions and getting prompt answers, I would be entering a page that I would find reliable.
+
+        *As a returning Visitor, with a friend, showing or sharing the website and being able to exchange and support each other.
+
+        *As a returning Visitor, looking and checking the links, or questions that have been posted. The feeling of understanding.
+
+### Frequent Visitor Goals
+
+        *As a frequent user, I want to be able to check in and see if my question has been answer, also know that if I have other questions, it would be treated with respect, and answered so I could understand it.
+
+        *As a frequnet Visitor, I would expect my questions, when requested to be private and my name not to be used on the website.
+
+## Features
+
++ ### Navbar
++ #### Navigation
+
++ #### Homepage
+
++ #### Hero Section
+
++ #### Highlights Section
+
++ #### Contact Page has a contact form:
+
+        - All text input fields are customized.
+        - Labels are animated when the input field is in focus and are not empty.
+        - All inputs are set to be required to fill out.
+        - It has to checkboxes for the visitors to fill voluntary
+
+
++ #### Questions and Answers Section
+        -including possible feedback from answered questions, from pre-teens, teenagers or mothers who were satisfied with the content of the website. Also possible new links that have been asked for.
+
+
++ #### Footer
+        Footer contains social media links that open ina new tab.
+
+
+
+
+## Acknowledgements
+
+        -[my two daugthers, for actually suggesting this idea in the first place, and willing to try the page to see if it really did work.]
+
+        -[my mentor for helping me understand the type of person that is looking for what I am trying to say]
+
+        -[slack buddies and teachers, A community thats always on the move.]
+
+        -[Kevin Powell, absolutely my biggest go to, before after and during this project.]
+
+
+
+
