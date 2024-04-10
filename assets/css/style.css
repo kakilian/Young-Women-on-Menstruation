@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap')
+
 /* Asteriks wildcard selector to override default style added by browser*/
 
 * {
@@ -13,8 +16,13 @@ body {
     flex-direction: column;
     /*Generic Project style*/
     color: #3a3a3a;
-
+    font-family: 'lato', sans-serif;
 }
+
+
+
+
+
 
 /*header*/
 header {
