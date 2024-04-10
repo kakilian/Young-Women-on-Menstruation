@@ -1,41 +1,28 @@
+/* Asteriks wildcard selector to override default style added by browser*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
 
 
-    /* Asterisk wildcard selector to override default styles added by the browser */
+/*header*/
+header {
 
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
+    background-color: pink;
+}
+/*main content*/
+main {
+    background-color: lightblue;
+    
 
-    /*General styles */
+}
 
-    body {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        color: rgb(119, 99, 61);
-        font-family: 'lato sans-serif';
-    }
 
-    /*Header */
-    header {
-        background-color: rgb(179, 114, 170);
-    }
+/*footer*/
+footer {
+    background-color: greenyellow;
 
-    h1 {
-        font-family: Oswald , sans-serif
-    }
-
-    /*Main content */
-    main {
-        background-color: rgb(55, 65, 68);
-        /*Make the body take up any surplus space to push footer down */
-        flex: 1 0 auto;
-    }
-
-    /*Footer */
-    footer {
-        background-color: lightsalmon;
-
-    }
+}
