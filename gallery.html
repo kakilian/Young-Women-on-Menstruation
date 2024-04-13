@@ -13,10 +13,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <style
-    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Oswald:wght@200..700&display=swap')></style>
-    
-   
+
     <!--style-sheet-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -24,55 +21,136 @@
 <body>
     <!--header-->
     <header> <a href="index.html">
-        <h1 id="logo">Self-Care Guide For Young Woman</h1>
+            <id= id="logo">Self-Care -a Guide For Young Woman
         </a>
-        <input type="checkbox" name="dropdown-menu" id="dropdown-menu">
-        <label for="dropdown-menu" class="menu-icon" i class="solid fa-bars">
+        <input type="checkbox" name="nav-toggle" id="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label" i class="X">
 
-        <nav>
-            <!--menu tab-->
-            <ul id="menu">
-                <li><a href="index.html" class="current-page">Home</li>
-                <li><a href="about.html">Information</li>
-                <li><a href="gallery.html">Quick Tips</li>
-                <li><a href="contact.html">Contact</li>
-            </ul>
-
-        </nav>
+            <nav>
+                <!--menu tab-->
+                <ul id="menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="home.html">Information</a></li>
+                    <li><a href="gallery.html">Quick Tips</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
     </header>
 
     <!--Main content-->
     <main>
-    
-<h2>
-    Gallery Form
-</h2>
 
-      
-      
-       
-   
-        
-</main>
-<!-- absolute-->
-<!-- Footer -->
-<footer>
-    <ul id="social-media">
-        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                aria-label="Visit my Facebook page (opens in a new tab)">
-                <i class="fa-brands fa-square-facebook"></i></a></li>
-        <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                aria-label="Visit my Twitter page (opens in a new tab)">
-                <i class="fa-brands fa-twitter-square"></i></a></li>
-        <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                aria-label="Visit my YouTube page (opens in a new tab)">
-                <i class="fa-brands fa-youtube-square"></i></a></li>
-        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                aria-label="Visit my Instagram page (opens in a new tab)">
-                <i class="fa-brands fa-instagram"></i></a>
-        </li>
+        <h2>
+            Gallery Form
+        </h2>
+        <section>
+            <h2>What is menstruation?</h2>
+            <p>
+                Menstruation is the normal vaginal bleeding that happens in cycles. In earlier years, cycles
+                typically range from 21 to 45 days, while in young adult life it's usually 21 to 31 days, continuing
+                until around age 51. It can start anywhere from age 10 to 15 and varies based on individual body and
+                diet.
+            </p>
+
+            <!--photo from Womans health magazine, also needs link to Womans Health magazine-->
+            <p>
+                "Menstrual blood and tissue flow from your uterus through a small opening in your cervix and pass
+                out of your body through your vagina. The uterus lining builds up to prepare for pregnancy."
+                (Source: Women's Health)
+            </p>
+
+            <!--image graphic?-->
+            <h2>Symptoms?</h2>
+
+
+            <p>
+                Common symptoms, known as PMS (Premenstrual Syndrome), include breast tenderness, bloating,
+                headaches, mood swings, depression, anxiety, anger, irritability, lower back pains, and diarrhea.
+                These can occur one or two weeks before each period and usually ease up when the bleeding starts due
+                to hormonal changes.
+            </p>
+
+            <!--needs a different image bright color for TIP - maybe a link or APP-->
+            <h2> TIP </h2>
+            <p>
+                You can use an Ovaltion calender to keep track of your next menstruation. It’s also handy for your
+                next womans GP appt. In the apps its easily adjustable to plot your PMS and will through the
+                algorithm project your next PMS dates. Great to use, keep that updated.
+            </p>
+            <!--image old photo, something silly thats well known-->
+            <h2>Myths Debunked:</h2>
+            <ul class="myths">
+                <li><strong>Fainting:</strong> Fainting during PMS or periods is unlikely due to minimal blood loss.
+                </li>
+                <li><strong>Sports:</strong> You can still do sports during your period. Listen to your body, as
+                    exercise can help with flow and pain relief.
+                </li>
+                <li><strong>Hair Washing:</strong> Washing your hair is perfectly fine for hygiene. Daily showers or
+                    baths are recommended for cleanliness and mood improvement.
+                </li>
+                <li><strong>Privacy:</strong> Having your period isn't a secret. It's a normal bodily process that
+                    shouldn't make you feel ashamed or abnormal.
+                </li>
+            </ul>
+        </section>
+        <!--Guide to self-body-awareness, what for a possible image-->
+        <section>
+
+    </main>
+    <!-- absolute-->
+    <!-- Footer -->
+    </section>
+    <!--Contact Information from client to send-->
+    <section>
+        <h2>Contact</h2>
+        <!--Here put in possible boxs for contact-->
+        <section id="contact.html">
+            <div class="contact-container">
+                <form action="confirmation.html" id="contact-form">
+                    <h3>Get in touch</h3>
+                    <p>If you have any questions or need further assistance, don't hesitate to reach out.
+                        We're here to help!</p>
+                    <fieldset class="user-details">
+                        <legend>My Details</legend>
+                        <label for="first-name">First Name: </label>
+                        <input type="text" name="first-name" id="first-name" class="text-input" placeholder="First Name"
+                            required>
+                        <label for="last-name">Last Name: </label>
+                        <input type="text" name="last-name" id="last-name" class="text-input" placeholder="Last Name"
+                            required>
+                        <label for="email-address">Email Address: </label>
+                        <input type="email" name="email-address" id="email-address" class="text-input"
+                            placeholder="name@emailaddress.com" required>
+
+                        <p>Disclaimer:If symptoms persist or if you experience prolonged bleeding, severe
+                            headaches, or
+                            other concerning symptoms, please contact your GP or nearest emergency center
+                            immediately.</p>
+                        <p><strong>Remember - listen to your body and prioritize self-care.</strong>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+</body>
+    <!-- absolute-->
+    <!-- Footer -->
+    <footer>
+        <ul id="social-media">
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit my Facebook page (opens in a new tab)">
+                    <i class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit my Twitter page (opens in a new tab)">
+                    <i class="fa-brands fa-twitter-square"></i></a></li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit my YouTube page (opens in a new tab)">
+                    <i class="fa-brands fa-youtube-square"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit my Instagram page (opens in a new tab)">
+                    <i class="fa-brands fa-instagram"></i></a>
+            </li>
         </ul>
     </footer>
-</body>
 
 </html>

@@ -1,7 +1,7 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap')
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 /* Asteriks wildcard selector to override default style added by browser*/
+
 * {
     padding: 0;
     margin: 0;
@@ -25,23 +25,107 @@ header {
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
+    width: 100%;
+    box-shadow: 0 3px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header>a {
+    text-decoration: none;
+    color: inherit;
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(71, 10, 66)
 }
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu>li {
+    margin-bottom: 1rem;
+
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+
+}
+
+/* Navbar Styles with dropdown toggle */
+
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0 3px 2px #3a3a3a;
+    left: 0;
+    width: 100%;
+    padding: 1 1rem;
+    display: none;
+    top: 100%;
+}
+
+/* Nav Toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 
 /*main content*/
 main {
     background-color: lightblue;
     /*Make main take up any surplus space to push footer down*/
     flex: 1 0 auto;
-
-    margin-top: 5em;
+    margin-top: 160px;
 }
 
 /*footer*/
 footer {
-    background-color: greenyellow;
+    background-color: rgba(211, 144, 200, 0.473);
+    font-family: 'lato', sans-serif;
 
+
+}
+
+/* media query: tablets and larger (768px and up*/
+@media screen (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+
+    }
+
+    #menu {
+        display: flex;
+
+    }
+
+    #menu>li {
+        padding-left: 2rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
