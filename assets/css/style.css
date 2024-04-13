@@ -1,9 +1,8 @@
 /* Google fonts import */
-<<<<<<< HEAD
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
-=======
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap')
->>>>>>> 255a70200fa2780ddbb6c65e0eb1dcf1204007f1
+
+
 /* Asteriks wildcard selector to override default style added by browser*/
 
 * {
@@ -86,11 +85,11 @@ nav {
     display: none;
 }
 
-.nav-toggle-label {
+.menu-icon {
     font-size: 2rem;
 }
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 
 /*main content*/
 main {
@@ -106,54 +105,52 @@ footer {
     font-family: 'lato', sans-serif;
 
 
-=======
- 
+    =======
 
-/*main content*/
-main {
-    background-color: lightblue;
-    /*Make main take up any surplus space to push footer down*/
-    flex: 1 0 auto;
-    margin-top: 115px;
-}
-
-/*footer*/
-footer {
-    background-color: greenyellow;
-    font-family: 'lato', sans-serif;
-
-
->>>>>>> 255a70200fa2780ddbb6c65e0eb1dcf1204007f1
-}
-
-/* media query: tablets and larger (768px and up*/
-@media screen (min-width: 768px) {
-
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-
+    /*main content*/
+    main {
+        background-color: lightblue;
+        /*Make main take up any surplus space to push footer down*/
+        flex: 1 0 auto;
+        margin-top: 115px;
     }
 
-    #menu {
+    /*footer*/
+    footer>ul {
+        background-color: greenyellow;
+        font-family: 'lato', sans-serif;
         display: flex;
-
+        justify-content: space-evenly;
+        list-style-type: none;
     }
 
-    #menu>li {
-        padding-left: 2rem;
-    }
-<<<<<<< HEAD
+    /* media query: tablets and larger (768px and up*/
+    @media screen (min-width: 768px) {
 
-    .nav-toggle-label {
-        display: none;
-=======
-    .nav-toggle-label {
-      display: none;  
->>>>>>> 255a70200fa2780ddbb6c65e0eb1dcf1204007f1
-    }
-}
+        /* Header */
+        nav {
+            display: block;
+            position: relative;
+            box-shadow: none;
+            width: fit-content;
+            padding-right: 1rem;
+
+        }
+
+        #menu {
+            display: flex;
+
+        }
+
+        #menu>li {
+            padding-left: 2rem;
+        }
+
+        .nav-toggle-label {
+            display: none;
+
+            .nav-toggle-label {
+                display: none;
+
+            }
+        }
