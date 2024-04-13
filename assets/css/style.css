@@ -7,7 +7,8 @@
     margin: 0;
     box-sizing: border-box;
 }
-    /* General-styles*/
+
+/* General-styles*/
 body {
     min-height: 100vh;
     display: flex;
@@ -16,6 +17,7 @@ body {
     color: #3a3a3a;
     font-family: 'lato', sans-serif;
 }
+
 /*header*/
 header {
 
@@ -24,15 +26,20 @@ header {
     position: fixed;
     z-index: 99;
 }
+
 h1 {
     font-family: 'Oswald', sans-serif;
 }
+
 /*main content*/
 main {
     background-color: lightblue;
     /*Make main take up any surplus space to push footer down*/
     flex: 1 0 auto;
+
+    margin-top: 5em;
 }
+
 /*footer*/
 footer {
     background-color: greenyellow;
