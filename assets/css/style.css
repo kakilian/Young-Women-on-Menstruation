@@ -29,19 +29,19 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 3px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
 
-header>a {
+header a {
     text-decoration: none;
     color: inherit;
 }
 
 h1 {
-    font-family: 'lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: rgb(71, 10, 66)
@@ -49,12 +49,12 @@ h1 {
 
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     list-style-type: none;
 }
 
 #menu>li {
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 
 }
 
@@ -68,7 +68,7 @@ h1 {
 nav {
     position: absolute;
     background-color: #ffffff;
-    box-shadow: 0 3px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #3a3a3a;
     left: 0;
     width: 100%;
     padding: 1 1rem;
@@ -85,72 +85,78 @@ nav {
     display: none;
 }
 
-.menu-icon {
+.nav-toggle-label {
     font-size: 2rem;
 }
 
-<<<<<<< HEAD
+.menu-icon {
+    font-size: 2rem;
+}
 
 /*main content*/
 main {
     background-color: lightblue;
     /*Make main take up any surplus space to push footer down*/
     flex: 1 0 auto;
-    margin-top: 160px;
+    margin-top: 260px;
 }
 
 /*footer*/
 footer {
     background-color: rgba(211, 144, 200, 0.473);
     font-family: 'lato', sans-serif;
+}
 
+/*main content*/
+main {
+    background-color: lightblue;
+    /*Make main take up any surplus space to push footer down*/
+    flex: 1 0 auto;
+    margin-top: 115px;
+}
 
-    =======
+/*footer*/
+#social-media {
+    background-color: greenyellow;
+    font-family: 'lato', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
 
-    /*main content*/
-    main {
-        background-color: lightblue;
-        /*Make main take up any surplus space to push footer down*/
-        flex: 1 0 auto;
-        margin-top: 115px;
+/* media query: tablets and larger (768px and up*/
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
     }
 
-    /*footer*/
-    footer>ul {
-        background-color: greenyellow;
-        font-family: 'lato', sans-serif;
+    #menu {
         display: flex;
-        justify-content: space-evenly;
-        list-style-type: none;
+
     }
 
-    /* media query: tablets and larger (768px and up*/
-    @media screen (min-width: 768px) {
+    #menu>li {
+        padding-left: 2rem;
+    }
 
-        /* Header */
-        nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: fit-content;
-            padding-right: 1rem;
+    .nav-toggle-label {
+        display: none;
+    }
+/* Main content */
+    main {
+        /* Push main content down to accomadate larger header*/
+        margin-top: 300px;
+    }
 
-        }
-
-        #menu {
-            display: flex;
-
-        }
-
-        #menu>li {
-            padding-left: 2rem;
-        }
-
-        .nav-toggle-label {
-            display: none;
-
-            .nav-toggle-label {
-                display: none;
-
-            }
-        }
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+}
