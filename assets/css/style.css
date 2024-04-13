@@ -19,7 +19,10 @@ body {
 /*header*/
 header {
 
-    background-color: pink;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
 }
 h1 {
     font-family: 'Oswald', sans-serif;
