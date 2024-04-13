@@ -1,6 +1,5 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap')
-
 /* Asteriks wildcard selector to override default style added by browser*/
 
 * {
@@ -9,6 +8,7 @@
     box-sizing: border-box;
 
 }
+
 /* General-styles*/
 body {
     min-height: 100vh;
@@ -27,19 +27,29 @@ body {
 /*header*/
 header {
 
-    background-color: pink;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: #3a3a3a;
+}
+
+#menu {
+    flex-direction: column;
 }
 
 h1 {
     font-family: 'Oswald', sans-serif;
 }
+
 /*main content*/
 main {
     background-color: lightblue;
     /*Make main take up any surplus space to push footer down*/
     flex: 1 0 auto;
 
-    
+
 
 }
 
