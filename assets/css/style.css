@@ -13,12 +13,14 @@
 
 /* General-styles*/
 body {
-    min-height: 100vh;
+    
     display: flex;
     flex-direction: column;
+    min-height: 50vh;
     /*Generic Project style*/
     color: #3a3a3a;
     font-family: 'lato', sans-serif;
+    
 }
 
 /*header*/
@@ -31,21 +33,55 @@ header {
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: baseline;
 }
 
 header a {
     text-decoration: none;
     color: inherit;
+    
 }
 
 h1 {
+    display: flex;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: rgb(71, 10, 66)
+    color: palevioletred
+    
 }
+h1 > * {
+    flex: 1;
+    flex-basis: 100%;
+    align-items: center;
+
+
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.columns > * {
+    flex: 1;
+    flex-basis: 100%;
+
+}
+
+@media (min-width: 750px) 
+.columns {
+    flex-direction: row;
+
+}
+
+
+
+
+
+
 
 #menu {
     font-size: 110%;
@@ -98,21 +134,8 @@ main {
     background-color: lightblue;
     /*Make main take up any surplus space to push footer down*/
     flex: 1 0 auto;
-    margin-top: 260px;
-}
-
-/*footer*/
-footer {
-    background-color: rgba(211, 144, 200, 0.473);
-    font-family: 'lato', sans-serif;
-}
-
-/*main content*/
-main {
-    background-color: lightblue;
-    /*Make main take up any surplus space to push footer down*/
-    flex: 1 0 auto;
     margin-top: 115px;
+    
 }
 
 /*footer*/
@@ -151,7 +174,7 @@ main {
 /* Main content */
     main {
         /* Push main content down to accomadate larger header*/
-        margin-top: 300px;
+        margin-top: 150px;
     }
 
     #logo {
@@ -163,7 +186,8 @@ main {
 /* media query:screen size (992px and higher*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 1px solid a
+        border-bottom: 1px solid #3a3a3a
+
     }
 
 
