@@ -170,13 +170,13 @@ main {
     background-color: lightblue;
     /*Make main take up any surplus space to push footer down*/
     flex: 1 0 auto;
-    margin-top: 115px;
+    margin-top: 141px;
 
 }
 
 .myths {
     display: flex;
-    flex: columns;
+    flex-direction: column;
     justify-content: space-evenly;
     list-style-type: none;
     
@@ -193,10 +193,19 @@ main {
     flex: columns;
     justify-content: space-evenly;
     list-style-type: none;
-    
-    gap: 2px;
-    flex: 1;
-    
+}
+/*.self>* {
+    flex-wrap: wrap;
+    border: 2px solid yellow;
+}*/
+
+.medication {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    margin: 2px;
+    justify-content: space-evenly;
+
 }
 /*footer*/
 #social-media {
