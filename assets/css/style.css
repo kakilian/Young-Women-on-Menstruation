@@ -6,149 +6,180 @@
 /* Asteriks wildcard selector to override default style added by browser*/
 
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-
-
-/* General-styles*/
+/* General styles */
 body {
-
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    min-height: 50vh;
-    /*Generic Project style*/
-    color: #3a3a3a;
-    font-family: 'lato', sans-serif;
-
+    flex-grow: 1;
+    font-family: 'Lato', sans-serif,  
+    color: whitesmoke
+    line-height: 1.6;
+    background-color: #e7dfdf;
+    font-weight: 700;
+    
 }
 
 
-/*header*/
-header {
-
-    background-color: #ffffff;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+.wrapper-flow {
     display: flex;
-    justify-content: flex-start;
-    align-items: baseline;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
-header a {
-    text-decoration: none;
-    color: inherit;
+.columns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    position: relative;
+    /* Added position relative */
+}
+
+.columns>h2 {
+    font-size: 2em;
+    color: #0066cc;
+}
+
+.columns>h3 {
+    font-size: 1.5em;
+    color: #ff6600;
+}
+
+.columns>p {
+    width: 85%;
+}
+
+/* Text overlay */
+#cover-text {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px;
+    margin: 50;
+   
+    width: 100%;
 
 }
-/*
+
+/* Header */
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 2px #3a3a3a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #ff1493;
+    /* Deep pink */
+}
+
+nav {
+    display: flex;
+}
+
 h1 {
     display: flex;
     font-family: 'Oswald', sans-serif;
-    /* Uppercase not working 
+
     text-transform: uppercase;
     letter-spacing: 2px;
-     color: palevioletred;
- */
+    color: palevioletred;
+    z-index: 0;
+
+
 }
 
-/*
 h1>* {
     flex: 1;
     flex-basis: 100%;
     align-items: center;
-*/
+
 }
+
 /*
+#over-lay-text {
+    display:block;
+    
+    display: inline-block;
+    
+
+}
+
+#over-lay-text {
+    position: absolute;
+    z-index: 1;
+    margin: 288px auto;
+    left: 0;
+    top: 0;
+    text-align: center;
+    width: 60%;*/
+}
+
 /* Background image for index page */
 #young {
-    display: flex;
+    /* display: flex;
+    position: absolute;
     flex-direction: right;
     align-items: flex-end;
-    background-color: #074f57;
+    background-color: #074f57;*/
     background-image: url(assets/image/young-girl.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: whitesmoke;
-    padding-top: 200px;
-    padding-bottom: 50px;
-    
-   
-}
-/* --flex-box-- */
-/*
-.wrapper-flow {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 0;
-*/
-}
-/*
-.columns {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    border: 5px solid pink;
-    padding-bottom: 35px;
-   
-*/
-}
+    padding-top: 2px;
+    padding-bottom: 2px;
+    z-index: -1;
 
-
-/* ---- */
-
-
-/*#cover-text {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    box-shadow: solid 10px pink;
-}*/
-
-
-
-/*-----*/
-/* @media (min-width: 750px) 
-.columns {
-    flex-direction: row;
-
-} */
-
-#thinking {
-    background-color: #3a3a3a;
-    background-image: url(/assets/image/girl-resting.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    background-repeat: no-repeat;
-    
 
 }
 
-
-
+.young {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    z-index: inherit;
+}
 
 
 #menu {
-    font-size: 110%;
-    letter-spacing: 2px;
     list-style-type: none;
 }
 
-#menu>li {
-    margin-bottom: 1em;
-
+#menu li {
+    margin-right: 20px;
 }
 
-.active {
-    border-bottom: 1px solid #3a3a3a;
+#menu li a {
+    text-decoration: none;
+    color: #333131;
+    transition: color 0.3s ease;
+}
 
+#menu li a:hover {
+    color: #ff1493;
+    /* Deep pink */
 }
 
 /* Navbar Styles with dropdown toggle */
@@ -181,58 +212,119 @@ nav {
     font-size: 2rem;
 }
 
-/*main content*/
-main {
-    background-color: lightblue;
-    /*Make main take up any surplus space to push footer down*/
-    flex: 1 0 auto;
-    margin-top: 141px;
+
+/* Contact form with image in background*/
+
+.thinking {
+    /*padding: 20em;
+    outline: 2px solid #074f57;
+    background-image: url('/assets/image/girl-resting.jpg');
+    background-size: 100%;
+    background-position: bottom right;
+    background-repeat: no-repeat;*/
+}
+
+.contact-text {
+    margin-top: auto;
+    padding: px;
+}
+
+
+.contact-form {
+    /*display: flex;
+    flex: absolute;
+    
+    
+    height: 50vh;
+    text-align: center;
+    color:#074f57; */
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin-top: auto;
+    padding: 2%;
+    background-color: #074f57 0, 2;
+    border: 1px solid #ff1493;
+
+    border-radius: 5px;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ff1493;
+    border-radius: 3px;
+}
+
+.form-group textarea {
+    resize: vertical;
+
 
 }
 
-.myths {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    list-style-type: none;
-
-    gap: 2px;
-    flex: 1;
+/* Button */
+button[type="submit"] {
+    background-color: #074f57;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
-.myths>* {
-    flex-wrap: wrap;
-    border: 2px solid yellow;
+button[type="submit"]:hover {
+    background-color: #ff1493;
 }
 
-.self {
-    display: flex;
-    flex: columns;
-    justify-content: space-evenly;
-    list-style-type: none;
+.disclaimer>* {
+    padding-top: 3rem;
 }
 
-/*.self>* {
-    flex-wrap: wrap;
-    border: 2px solid yellow;
-}*/
-
-.medication {
-    display: flex;
-    flex-direction: column;
-    padding: 4px;
-    margin: 2px;
-    justify-content: space-evenly;
-
+/* Footer */
+footer {
+    background-color: #074f57 color:#e7dfdf;
+    padding: 20px;
+    text-align: center;
+    /* pushing the footer down */
+    position: fixed;
+    bottom: 0;
+    width: 100%
 }
 
-/*footer*/
+/* Social Media */
 #social-media {
-    background-color: greenyellow;
-    font-family: 'lato', sans-serif;
-    display: flex;
-    justify-content: space-evenly;
     list-style-type: none;
+    padding: 0;
+}
+
+#social-media li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#social-media a {
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+/* Using color on the hoverbutton */
+#social-media a:hover {
+    color: #ff1493;
+    /* Deep pink */
 }
 
 /* media query: tablets and larger (768px and up*/
@@ -263,7 +355,7 @@ main {
     /* Main content */
     main {
         /* Push main content down to accomadate larger header*/
-        margin-top: 150px;
+        margin-top: 500px;
     }
 
     #logo {
@@ -271,6 +363,23 @@ main {
         line-height: 75px;
         margin: 0 0.5rem;
     }
+
+    /* Photos resizing for large screen */
+
+}
+
+/*footer*/
+#social-media {
+    display: flex;
+
+    background-color: #074f57;
+    font-family: 'lato', sans-serif;
+    align-content: flex-end;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: auto;
 }
 
 /* media query:screen size 992px and higher*/
@@ -278,6 +387,3 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a
     }
-
-
-}

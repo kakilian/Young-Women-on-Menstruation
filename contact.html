@@ -10,6 +10,7 @@
     <meta author="Katarina Kilian">
     <!--title-->
     <title>Menstruation Guide for young pre-teen woman</title>
+    <img src="assets/image/girl-resting.jpg" alt="A girl resting on her bed, thinking about things" class="thinking">
     <!--favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
@@ -50,7 +51,7 @@
             <!--hero section-->
             <article class="wrapper-flow">
                 <section id="cover-text">
-                    <div class="columns">
+                    <div class="columns" id="contact-text">
                         <h2>A Menstruation Guide</h2>
                         <!--Contact page 4 Information from client to send-->
                         <section>
@@ -58,28 +59,41 @@
                                 <h3>Contact</h3>
                                 <!--Here put in possible boxs for contact-->
                                 <section id="contact.html">
-                                    <div class="contact-container">
+                                    <div class="contact-container" id="contact">
                                         <form action="confirmation.html" id="contact-form" method="get">
+
                                             <h3>Get in touch</h3>
-                                            <img src="assets/image/plant.jpg" alt="A photo white flowers covering the side of the page" class="young"> 
+
                                             <p>If you have any questions or need further assistance, don't hesitate to
                                                 reach
                                                 out.
                                                 We're here to help!</p>
-                                            <fieldset class="user-details">
-                                                <legend>My Details</legend>
-                                                <label for="first-name">First Name: </label>
-                                                <input type="text" name="first-name" id="first-name" class="text-input"
-                                                    placeholder="First Name" required>
-                                                <label for="last-name">Last Name: </label>
-                                                <input type="text" name="last-name" id="last-name" class="text-input"
-                                                    placeholder="Last Name" required>
-                                                <label for="email-address">Email Address: </label>
-                                                <input type="email" name="email-address" id="email-address"
-                                                    class="text-input" placeholder="name@emailaddress.com" required>
-<!--needs a comments box where the client could write question in to send-->
+                                            <div class="contact-form">
+                                                <h2>Contact Us</h2>
+                                                <form action="#" method="post">
+                                                    <div class="form-group">
+                                                        <label for="first-name">First Name:</label>
+                                                        <input type="text" id="first-name" name="first-name" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="surname">Surname:</label>
+                                                        <input type="text" id="surname" name="surname" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="email">Email Address:</label>
+                                                        <input type="email" id="email" name="email" required>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="question">Your Question:</label>
+                                                        <textarea id="question" name="question" rows="4"
+                                                            required></textarea>
+                                                    </div>
+                                                    <button type="submit">Submit</button>
+                                                </form>
+                                            </div>
 
-<img src="assets/image/girl-resting.jpg" alt="A girl resting on her bed, thinking about things" class="thinking">
+
+                                            <div id="disclaimer" class="disclaimer">
                                                 <p>Disclaimer:If symptoms persist or if you experience prolonged
                                                     bleeding,
                                                     severe
@@ -91,9 +105,7 @@
                                                 <p><strong>Remember - listen to your body and prioritize
                                                         self-care.</strong>
                                                 </p>
-                                            </fieldset>
-                                        </form>
-                                    </div>
+                                            </div>
                                 </section>
             </article>
         </main>
