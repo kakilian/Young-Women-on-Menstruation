@@ -17,14 +17,62 @@ body {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    font-family: 'Lato', sans-serif,  
-    color: whitesmoke
+    font-family: 'Lato', sans-serif;
+    color: whitesmoke;
     line-height: 1.6;
     background-color: #e7dfdf;
     font-weight: 700;
-    
+
 }
 
+/* Photos */
+.bg__index {
+    background-image: linear-gradient(14deg,
+            rgba(2, 0, 36, 0.377) 0%,
+            rgba(9, 9, 121, 0.356) 6%,
+            rgba(62, 69, 70, 0.5) 100%),
+        url('../image/young-girl.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.bg__home {
+    background-image: linear-gradient(14deg,
+            rgba(2, 0, 36, 0.377) 0%,
+            rgba(9, 9, 121, 0.356) 6%,
+            rgba(62, 69, 70, 0.5) 100%),
+        url('../image/girls-group.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+.bg__gallery {
+    background-image: linear-gradient(14deg,
+            rgba(2, 0, 36, 0.377) 0%,
+            rgba(9, 9, 121, 0.356) 6%,
+            rgba(62, 69, 70, 0.5) 100%),
+        url('../image/surfer-girls.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+.bg__contact {
+    background-image: linear-gradient(14deg,
+            rgba(2, 0, 36, 0.377) 0%,
+            rgba(9, 9, 121, 0.356) 6%,
+            rgba(62, 69, 70, 0.5) 100%),
+        url('../image/girl-resting.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
 
 .wrapper-flow {
     display: flex;
@@ -39,8 +87,7 @@ body {
     align-items: center;
     text-align: center;
     gap: 20px;
-    position: relative;
-    /* Added position relative */
+
 }
 
 .columns>h2 {
@@ -57,24 +104,9 @@ body {
     width: 85%;
 }
 
-/* Text overlay */
-#cover-text {
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    padding: 10px;
-    margin: 50;
-   
-    width: 100%;
-
-}
-
 /* Header */
 header {
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 20px;
     box-shadow: 0 2px 2px #3a3a3a;
     position: fixed;
@@ -106,62 +138,8 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: palevioletred;
-    z-index: 0;
-
-
-}
-
-h1>* {
-    flex: 1;
-    flex-basis: 100%;
-    align-items: center;
-
-}
-
-/*
-#over-lay-text {
-    display:block;
-    
-    display: inline-block;
-    
-
-}
-
-#over-lay-text {
-    position: absolute;
     z-index: 1;
-    margin: 288px auto;
-    left: 0;
-    top: 0;
-    text-align: center;
-    width: 60%;*/
 }
-
-/* Background image for index page */
-#young {
-    /* display: flex;
-    position: absolute;
-    flex-direction: right;
-    align-items: flex-end;
-    background-color: #074f57;*/
-    background-image: url(assets/image/young-girl.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: whitesmoke;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    z-index: -1;
-
-
-}
-
-.young {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-    z-index: inherit;
-}
-
 
 #menu {
     list-style-type: none;
@@ -215,6 +193,10 @@ nav {
 
 /* Contact form with image in background*/
 
+.young {
+    background-position: bottom center;
+}
+
 .thinking {
     /*padding: 20em;
     outline: 2px solid #074f57;
@@ -231,13 +213,6 @@ nav {
 
 
 .contact-form {
-    /*display: flex;
-    flex: absolute;
-    
-    
-    height: 50vh;
-    text-align: center;
-    color:#074f57; */
     justify-content: center;
     align-items: center;
     max-width: 400px;
@@ -296,12 +271,12 @@ button[type="submit"]:hover {
 
 /* Footer */
 footer {
-    background-color: #074f57 color:#e7dfdf;
-    padding: 20px;
+    background-color: #074f57;
+    color: #e7dfdf;
+    padding: 0px;
     text-align: center;
     /* pushing the footer down */
-    position: fixed;
-    bottom: 0;
+
     width: 100%
 }
 
@@ -355,7 +330,8 @@ footer {
     /* Main content */
     main {
         /* Push main content down to accomadate larger header*/
-        margin-top: 500px;
+        margin-top: 100px;
+        padding: 0 2em 10em 2em;
     }
 
     #logo {
@@ -385,5 +361,6 @@ footer {
 /* media query:screen size 992px and higher*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 1px solid #3a3a3a
+        border-bottom: 1px solid #3a3a3a;
     }
+}
