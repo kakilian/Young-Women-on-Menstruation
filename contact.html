@@ -20,27 +20,25 @@
 
 <body class="bg__contact">
     <!--header-->
-    <header> <a href="index.html">
-            <h1 id="logo">Self-Care Guide For Young Woman</h1>
-            <!--  <a-tag> A simplified understanding, for all young woman, to understand their bodies, when reaching puberty.
-                Description of how to help yourself, in a health situation. Which products avaliable to use.-->
-        </a>
-        <input type="checkbox" name="nav-toggle" id="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label">X</label>
-        <nav>
-            <!--menu tab-->
-            <ul id="menu">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="home.html">Information</a></li>
-                <li><a href="gallery.html">Quick Tips</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
     <main>
+        <header> <a href="index.html">
+                <h1 id="logo">Self-Care Guide For Young Woman</h1>
+            </a>
+            <input type="checkbox" name="nav-toggle" id="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">X</label>
+            <nav>
+                <!--menu tab-->
+                <ul id="menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="home.html">Information</a></li>
+                    <li><a href="gallery.html">Quick Tips</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
         <!--hero section-->
         <article class="wrapper-flow">
-            <div class="columns" id="contact-text">
+            <section id="cover-text" class="columns">
                 <h2>A Menstruation Guide</h2>
                 <!--Contact page 4 Information from client to send-->
                 <div class="columns">
@@ -48,30 +46,31 @@
                     <!--Here put in possible boxs for contact-->
                     <section id="contact.html">
                         <div class="contact-container" id="contact">
-                            <form action="confirmation.html" id="contact-form" method="get">
-                                <h3>Get in touch</h3>
-                                <p>If you have any questions or need further assistance, don't hesitate to reach out.
-                                    We're here to help!</p>
+                            <h3>Get in touch</h3>
+                            <p>If you have any questions or need further assistance, don't hesitate to reach out. We're here to help!</p>
+                            <form action="confirmation.html" id="contact-form" method="get" class="contact">
                                 <div class="contact-form">
                                     <h2>Contact Us</h2>
-                                    <form action="#" method="post">
-                                        <div class="form-group">
-                                            <label for="first-name">First Name:</label>
-                                            <input type="text" id="first-name" name="first-name" required>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="surname">Surname:</label>
-                                            <input type="text" id="surname" name="surname" required>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="email">Email Address:</label>
-                                            <input type="email" id="email" name="email" required>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="question">Your Question:</label>
-                                            <textarea id="question" name="question" rows="4" required></textarea>
-                                        </div>
-                                        <button type="submit">Submit</button>
+                                    <div class="form-group">
+                                        <label for="first-name">First Name:</label>
+                                        <input type="text" id="first-name" name="first-name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="surname">Surname:</label>
+                                        <input type="text" id="surname" name="surname" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email Address:</label>
+                                        <input type="email" id="email" name="email" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="question">Your Question:</label>
+                                        <textarea id="question" name="question" rows="5" required></textarea>
+                                    </div>
+                                    <button type="submit">Submit</button>
+                                    <div class="contact-question">
+                                        <p>We'll get back to you as soon as possible. Thank you for reaching out!</p>
+                                    </div>
                                     </form>
                                 </div>
                                 <div id="disclaimer" class="disclaimer">
@@ -85,7 +84,7 @@
                         </div>
                     </section>
                 </div>
-            </div>
+            </section>
         </article>
     </main>
     <!-- Footer -->

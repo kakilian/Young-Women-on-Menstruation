@@ -16,10 +16,10 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    /*flex-grow: 1;*/
     font-family: 'Lato', sans-serif;
     color: whitesmoke;
-    line-height: 1.6;
+    line-height: 1.2;
     background-color: #e7dfdf;
     font-weight: 700;
 
@@ -76,28 +76,35 @@ body {
 
 .wrapper-flow {
     display: flex;
+    flex: 1 0 auto;
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    
 }
+.body>.contact-form {
+    flex-direction: column-reverse;
+}
+
 
 .columns {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 20px;
-
+    gap: 10px;
+    padding-bottom: 30px;
+    width: 100%
 }
 
 .columns>h2 {
     font-size: 2em;
-    color: #0066cc;
+    color: #d6dce1;
 }
 
 .columns>h3 {
     font-size: 1.5em;
-    color: #ff6600;
+    color: #e5137c;
 }
 
 .columns>p {
@@ -107,13 +114,13 @@ body {
 /* Header */
 header {
     background-color: #ffffff;
-    padding: 20px;
-    box-shadow: 0 2px 2px #3a3a3a;
+    padding: 10px;
+    box-shadow: 0 2px 2px #074f57;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 99;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -122,9 +129,9 @@ header {
 #logo {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    font-size: 60px;
+    font-size: 20px;
     color: #ff1493;
-    /* Deep pink */
+    
 }
 
 nav {
@@ -132,13 +139,19 @@ nav {
 }
 
 h1 {
-    display: flex;
     font-family: 'Oswald', sans-serif;
-
     text-transform: uppercase;
     letter-spacing: 2px;
     color: palevioletred;
-    z-index: 1;
+
+   
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-top: 50px;
+
+   
 }
 
 #menu {
@@ -157,7 +170,7 @@ h1 {
 
 #menu li a:hover {
     color: #ff1493;
-    /* Deep pink */
+    
 }
 
 /* Navbar Styles with dropdown toggle */
@@ -168,12 +181,13 @@ nav {
     box-shadow: 0 2px 2px #3a3a3a;
     left: 0;
     width: 100%;
-    padding: 1 1rem;
+    padding: 1rem;
     display: none;
     top: 100%;
 }
 
 /* Nav Toggle */
+
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -191,24 +205,20 @@ nav {
 }
 
 
-/* Contact form with image in background*/
+/* Contact form */
+/* Position of Contact Box*/
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: flex-end;*/
+    padding: 20px;
 
-.young {
-    background-position: bottom center;
-}
-
-.thinking {
-    /*padding: 20em;
-    outline: 2px solid #074f57;
-    background-image: url('/assets/image/girl-resting.jpg');
-    background-size: 100%;
-    background-position: bottom right;
-    background-repeat: no-repeat;*/
 }
 
 .contact-text {
     margin-top: auto;
-    padding: px;
+    padding: 3px;
 }
 
 
@@ -226,28 +236,29 @@ nav {
 
 .contact-form h2 {
     margin-bottom: 20px;
+    color: #ff1493;
 }
 
 .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .form-group label {
     display: block;
     font-weight: bold;
+    color:#ff1493
 }
 
 .form-group input,
 .form-group textarea {
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     border: 1px solid #ff1493;
     border-radius: 3px;
 }
 
 .form-group textarea {
     resize: vertical;
-
 
 }
 
@@ -273,33 +284,36 @@ button[type="submit"]:hover {
 footer {
     background-color: #074f57;
     color: #e7dfdf;
-    padding: 0px;
+    padding: 13px 0;
     text-align: center;
-    /* pushing the footer down */
-
-    width: 100%
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 /* Social Media */
 #social-media {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
+
 }
 
 #social-media li {
-    display: inline-block;
-    margin-right: 10px;
+        margin-right: 10px;
 }
 
 #social-media a {
     color: #ffffff;
     font-size: 1.5em;
+    transition: color 0.3s ease;
 }
 
 /* Using color on the hoverbutton */
 #social-media a:hover {
     color: #ff1493;
-    /* Deep pink */
+
 }
 
 /* media query: tablets and larger (768px and up*/
@@ -330,34 +344,28 @@ footer {
     /* Main content */
     main {
         /* Push main content down to accomadate larger header*/
-        margin-top: 100px;
+        margin-top: 180px;
         padding: 0 2em 10em 2em;
     }
-
     #logo {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
 
-    /* Photos resizing for large screen */
-
 }
-
 /*footer*/
 #social-media {
     display: flex;
-
     background-color: #074f57;
     font-family: 'lato', sans-serif;
     align-content: flex-end;
     justify-content: space-evenly;
     list-style-type: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 0px;
+    /*padding-bottom: 5px;*/
     margin: auto;
 }
-
 /* media query:screen size 992px and higher*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
