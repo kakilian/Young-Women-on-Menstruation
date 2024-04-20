@@ -230,7 +230,6 @@ form {
     padding: 2%;
     background-color: #074f57 0, 2;
     border: 1px solid #ff1493;
-
     border-radius: 5px;
 }
 
@@ -274,6 +273,7 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #ff1493;
+
 }
 
 .disclaimer>* {
