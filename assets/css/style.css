@@ -147,18 +147,24 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: palevioletred;
-
-   
 }
 
 h2 {
     text-transform: uppercase;
     margin-top: 50px;
+}
+h3 {
+        color: gold;
+    }
 
-   
+.gallery p {
+    padding-bottom: 20px;
+    
 }
 
-#menu {
+
+
+#menu {    
     list-style-type: none;
 }
 
@@ -219,12 +225,21 @@ form {
     padding: 20px;
 
 }
+/* Cycles styling app link*/
+.cycles {
+    color:yellow;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0,3s ease;
+}
 
+.cycles:hover {
+    color:#e5137c;
+}
 .contact-text {
     margin-top: auto;
     padding: 3px;
 }
-
 
 .contact-form {
     justify-content: center;
@@ -279,6 +294,9 @@ button[type="submit"]:hover {
     background-color: #ff1493;
 
 }
+.question {
+    margin-top: 4px;
+}
 
 .disclaimer>* {
     padding-top: 3rem;
@@ -301,6 +319,7 @@ footer {
     padding: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
 
@@ -320,7 +339,7 @@ footer {
 
 }
 
-/* media query: tablets and larger (768px and up*/
+/* media query: tablets (768px*/
 @media screen and (min-width: 768px) {
 
     /* Header */
@@ -348,15 +367,41 @@ footer {
     /* Main content */
     main {
         /* Push main content down to accomadate larger header*/
-        margin-top: 180px;
+        margin-top: 130px;
         padding: 0 2em 10em 2em;
     }
     #logo {
-        font-size: 280%;
+        font-size: 150%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
-
+    .wrapper-flow
+    .gallery {
+        padding-top: 100px;
+        
+    }
+    
+    .gallery .columns {
+        padding-bottom: 50px;
+    
+    }
+    
+    .gallery #cover-text h2 {
+        font-size: 2.5em;
+    }
+    
+    .gallery #cover-text h3 {
+        font-size: 1.8em;
+    
+    }
+    .gallery #cover-text h4 {
+    
+        font-size: 1.6em;
+    }
+    
+    .gallery #cover-text p {
+        width: 90%;
+    }    
 }
 /*footer*/
 #social-media {
