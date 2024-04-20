@@ -107,6 +107,10 @@ body {
     color: #e5137c;
 }
 
+.columns>h4 {
+    font-size: 1.3em;
+    color: #074f57;
+}
 .columns>p {
     width: 85%;
 }
