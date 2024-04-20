@@ -69,11 +69,11 @@
 
         -[my two daugthers, for actually suggesting this idea in the first place, and willing to try the page to see if it really did work.]
 
-        -[my mentor for helping me understand the type of person that is looking for what I am trying to say]
+        -[my mentor for helping me understand the type of client, that is looking for, and what I am trying to say]
 
-        -[slack buddies and teachers, A community thats always on the move.]
+        -[slack buddies and tutors, to help with coding problems that I encountered. - A community thats always on the move.]
 
-        -[Kevin Powell, absolutely my biggest go to, before after and during this project.]
+        -[Kevin Powell, absolutely my biggest go to, before after and during this project. I used a lot of his videos to help understand my coding]
 
 
 
