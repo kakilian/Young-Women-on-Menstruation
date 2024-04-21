@@ -17,7 +17,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /*flex-grow: 1;*/
     font-family: 'Lato', sans-serif;
     color: whitesmoke;
     line-height: 1.2;
@@ -126,8 +125,10 @@ body {
     border-radius: 15px 15px 15px 15px;
     padding: 10px;
     margin: 10px;
+    background-color: #074f57;
         
 }
+
 
 /* Header */
 header {
@@ -165,7 +166,7 @@ h1 {
 
 h2 {
     text-transform: uppercase;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 h3 {
