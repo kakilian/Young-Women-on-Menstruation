@@ -531,6 +531,18 @@ footer {
     .gallery #cover-text p {
         width: 90%;
     }
+    /* Cycles styling app link*/
+    .container-app {
+        display: flex;
+        width: 9%;
+        height: 9%;
+        border: 1px solid #FF1493;
+        border-radius: 15px 15px 15px 15px;
+        padding: 5px;
+        margin: 10px;
+        background-color: #074f57;
+    
+    }
 }
 
 /*footer*/
