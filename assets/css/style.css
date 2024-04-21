@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 /* General styles */
@@ -81,8 +81,9 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    
+
 }
+
 .body>.contact-form {
     flex-direction: column-reverse;
 }
@@ -112,6 +113,7 @@ body {
     font-size: 1.3em;
     color: #074f57;
 }
+
 .columns>p {
     width: 85%;
 }
@@ -136,7 +138,7 @@ header {
     text-transform: uppercase;
     font-size: 20px;
     color: #ff1493;
-    
+
 }
 
 nav {
@@ -154,18 +156,19 @@ h2 {
     text-transform: uppercase;
     margin-top: 50px;
 }
+
 h3 {
-        color: gold;
-    }
+    color: gold;
+}
 
 .gallery p {
     padding-bottom: 20px;
-    
+
 }
 
 
 
-#menu {    
+#menu {
     list-style-type: none;
 }
 
@@ -181,7 +184,7 @@ h3 {
 
 #menu li a:hover {
     color: #ff1493;
-    
+
 }
 
 /* Navbar Styles with dropdown toggle */
@@ -223,21 +226,22 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*justify-content: flex-end;*/
     padding: 20px;
 
 }
+
 /* Cycles styling app link*/
 .cycles {
-    color:yellow;
+    color: yellow;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0,3s ease;
+    transition: color 0, 3s ease;
 }
 
 .cycles:hover {
-    color:#e5137c;
+    color: #e5137c;
 }
+
 .contact-text {
     margin-top: auto;
     padding: 3px;
@@ -266,7 +270,7 @@ form {
 .form-group label {
     display: block;
     font-weight: bold;
-    color:#ff1493
+    color: #ff1493
 }
 
 .form-group input,
@@ -296,9 +300,11 @@ button[type="submit"]:hover {
     background-color: #ff1493;
 
 }
+
 .question {
     margin-top: 4px;
 }
+
 .full-screen {
     display: flex;
     justify-content: center;
@@ -313,7 +319,7 @@ button[type="submit"]:hover {
 }
 
 #answer-title {
-    color:#ff1493;
+    color: #ff1493;
     font-size: 1.5em;
     margin-bottom: 15px;
     margin-left: 5px;
@@ -354,7 +360,7 @@ footer {
 }
 
 #social-media li {
-        margin-right: 10px;
+    margin-right: 10px;
 }
 
 #social-media a {
@@ -400,39 +406,42 @@ footer {
         margin-top: 130px;
         padding: 0 2em 10em 2em;
     }
+
     #logo {
         font-size: 150%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
-    .wrapper-flow
-    .gallery {
+
+    .wrapper-flow .gallery {
         padding-top: 100px;
-        
+
     }
-    
+
     .gallery .columns {
         padding-bottom: 50px;
-    
+
     }
-    
+
     .gallery #cover-text h2 {
         font-size: 2.5em;
     }
-    
+
     .gallery #cover-text h3 {
         font-size: 1.8em;
-    
+
     }
+
     .gallery #cover-text h4 {
-    
+
         font-size: 1.6em;
     }
-    
+
     .gallery #cover-text p {
         width: 90%;
-    }    
+    }
 }
+
 /*footer*/
 #social-media {
     display: flex;
@@ -445,6 +454,7 @@ footer {
     /*padding-bottom: 5px;*/
     margin: auto;
 }
+
 /* media query:screen size 992px and higher*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
