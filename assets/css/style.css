@@ -47,7 +47,7 @@ body {
         url('../image/girls-group.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: center center;
     background-attachment: fixed;
 }
 
@@ -59,7 +59,7 @@ body {
         url('../image/surfer-girls.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: center top;
     background-attachment: fixed;
 }
 
@@ -71,7 +71,7 @@ body {
         url('../image/girl-resting.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: center center;
     background-attachment: fixed;
 }
 
@@ -83,6 +83,7 @@ body {
     padding: 20px;
 
 }
+
 
 .body>.contact-form {
     flex-direction: column-reverse;
@@ -118,6 +119,7 @@ body {
     width: 85%;
 }
 
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -136,7 +138,7 @@ header {
 #logo {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 30px;
     color: #ff1493;
 
 }
@@ -200,6 +202,7 @@ nav {
     top: 100%;
 }
 
+
 /* Nav Toggle */
 
 #nav-toggle:checked~nav {
@@ -213,6 +216,7 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
     font-weight: 900;
+    color:#074f57
 }
 
 .menu-icon {
