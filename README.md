@@ -36,39 +36,40 @@
         Privacy: Expect privacy regarding asked questions.
 
 ## Features
-
         This website is made up of 5 pages, one of which is a reply-page, after contact is made on the webpage.
 
-+ ### Favicon ![favicon](assets/favicon/android-chrome-512x512.png)
-
+### Favicon ![favicon](assets/favicon/android-chrome-192x192.png)
         I tried to bring a simple and also clear message, website is made for "teens". All welcome. Everyone! - the Topic may be happening to girls/woman - it is also apart of familys - sisters to brothers or a friend. To help everyone have a small simple look into what is going on.
-+ ### Navbar
+
+### Font 
+        I decided to use an all over easy access FONT. Possible Access for All! lato and Oswald. I did think about making a type of written font, decided against it, due to the fact there were comments in font-google, that not all mobile phones would be supported with fonts I thought would be good. For sure modern telephones. Looking at my target Audience, though experience -mostly get their parents or hand me down Mobilphones from family or friends.
+### Navbar
         Easy navigation through the site. I kept the navigation bar going through all 5 pages, to enable total USER control over the website. 
 
-+ #### Homepage ![link](assets/image/testing-for-project/cover.jpg)
+#### Homepage ![home](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110.gitpod.io/index.html)
         Introduction from myself, and my role in the community as a mother, nurse and also a friend.
 
-+ #### Hero Section ![link](assets/image/testing-for-project/page-two.jpg)
+#### Hero Section ![hero section](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110.gitpod.io/home.html)
         Highlights the purpose of the website and its mission. A brief, simplified - as a stepping stone - to understand what is going on with my body.
 
-+ #### Highlights Section ![link](assets/image/testing-for-project/page-three.jpg)
+#### Highlights Section ![gallery](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110.gitpod.io/gallery.html)
         Features key information and advice for young women
 
-+ #### APP Button -"Cycle" 
+#### APP Button -"Cycle" 
         An intergrate APP button, to help those interested in "Helping to keeping an eye on their "Cycle".
 
-+ #### Contact Page has a contact form, with Question possibity: ![link](assets/image/testing-for-project/page-four.jpg)
+#### Contact Page has a contact form, with Question possibity: ![contact](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110.gitpod.io/contact.html)
         Includes a contact form with customized fields for visitors. - All fields are required for the 5th page to open.
 
-+ #### Answer Page ![link](assets/image/testing-for-project/page-five.jpg)
+#### Answer Page ![answer](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110.gitpod.io/answer.html)
        Here is a confirmation page, and to let the user that they will be answered, ASAP!
 
-+ #### Colors and Meanings ![link](assets/image/testing-for-project/color-pink.jpg)
+#### Colors and Meanings ![link](assets/image/testing-for-project/color-pink.jpg) ![link](assets/image/testing-for-project/greenie-color.jpg)
         Greens: Symbolizes Beginnings, new growth, vibrant health, and other ideas connected with life, rebirth, and renewal
         Pink: Symbolizes femininity, compassion, and understanding.
 
 
-+ ### Images and Their Meanings:
+### Images and Their Meanings:
 
 #### Girl Resting ![link](assets/image/girl-resting.jpg)
         Symbolizes the importance of relaxation and self-care       
@@ -79,7 +80,7 @@
 #### Young Girl ![link](assets/image/young-girl.jpg)
         Emphasizes the target audience of pre-teens and teenagers.
 
-#### Surfer Girls ![Link](assets/image/surfer-girls-med.jpg)
+#### Surfer Girls ![Link](assets/image/surfer-girls.jpg)
         Represents strength, vitality, and empowerment.
 
 + #### Footer 
@@ -87,12 +88,12 @@
         Code is copied from Loverunning.
 
 ## Deployment 
-        Github Deployment: 
-        Fork Repository
-        Clone Respositary
+        Github Deployment: ![]
+        Fork Repository:
+        Clone Respositary:
 
-## Testing Responsiveness       ![Link](assets/image/testing-for-project/performance-handy.jpg)
-                                ![Link](assets/image/testing-for-project/performance-pc.jpg)
+## Testing Responsiveness       ![Link](assets/image/testing-for-project/performance-handy.jpg) ![Link](assets/image/testing-for-project/performance-pc.jpg)
+                       with Lighthouse.         
 
 ## 
 
