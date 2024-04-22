@@ -65,7 +65,7 @@ This site can be accessed
 + ### Images and Their Meanings:
 
         Girl Resting 
-                [vscode-remote](http//kakilian-menstruationgu-a9ln2842g1p.ws-eu110.gitpod.io/workspace/menstruation-guide-project-1/assets/image/girl-resting.jpg)
+                [- Symbolizes the importance of relaxation and self-care.](assets/image/girl-resting.jpg)
         
              - Symbolizes the importance of relaxation and self-care.
         
