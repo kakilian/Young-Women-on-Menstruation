@@ -433,52 +433,23 @@ footer {
 
     /* Photos */
     .bg__index {
-        background-image: linear-gradient(14deg,
-                rgba(2, 0, 36, 0.377) 0%,
-                rgba(9, 9, 121, 0.356) 6%,
-                rgba(62, 69, 70, 0.5) 100%),
-            url('../image/young-girl.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
         background-position: center center;
-        background-attachment: fixed;
+
     }
 
     .bg__home {
-        background-image: linear-gradient(14deg,
-                rgba(2, 0, 36, 0.377) 0%,
-                rgba(9, 9, 121, 0.356) 6%,
-                rgba(62, 69, 70, 0.5) 100%),
-            url('../image/girls-group.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
         background-position: 80% 100%;
-        background-attachment: fixed;
 
     }
 
     .bg__gallery {
-        background-image: linear-gradient(14deg,
-                rgba(2, 0, 36, 0.377) 0%,
-                rgba(9, 9, 121, 0.356) 6%,
-                rgba(62, 69, 70, 0.5) 100%),
-            url('../image/surfer-girls.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
         background-position: 50% 50%;
-        background-attachment: fixed;
+
     }
 
     .bg__contact {
-        background-image: linear-gradient(14deg,
-                rgba(2, 0, 36, 0.377) 0%,
-                rgba(9, 9, 121, 0.356) 6%,
-                rgba(62, 69, 70, 0.5) 100%),
-            url('../image/girl-resting.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
         background-position: 50% 90%;
-        background-attachment: fixed;
+
     }
 
     #menu {
@@ -580,56 +551,6 @@ footer {
         padding-right: 1rem;
     }
 
-    /* Photos */
-    .bg__index {
-        background-image: linear-gradient(14deg,
-                rgba(2, 0, 36, 0.377) 0%,
-                rgba(9, 9, 121, 0.356) 6%,
-                rgba(62, 69, 70, 0.5) 100%),
-            url('../image/young-girl.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        background-attachment: fixed;
-    }
-
-    .bg__home {
-        background-image: linear-gradient(14deg,
-                rgba(2, 0, 36, 0.377) 0%,
-                rgba(9, 9, 121, 0.356) 6%,
-                rgba(62, 69, 70, 0.5) 100%),
-            url('../image/girls-group.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 80% 100%;
-        background-attachment: fixed;
-
-    }
-
-    .bg__gallery {
-        background-image: linear-gradient(14deg,
-                rgba(2, 0, 36, 0.377) 0%,
-                rgba(9, 9, 121, 0.356) 6%,
-                rgba(62, 69, 70, 0.5) 100%),
-            url('../image/surfer-girls.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 50% 50%;
-        background-attachment: fixed;
-    }
-
-    .bg__contact {
-        background-image: linear-gradient(14deg,
-                rgba(2, 0, 36, 0.377) 0%,
-                rgba(9, 9, 121, 0.356) 6%,
-                rgba(62, 69, 70, 0.5) 100%),
-            url('../image/girl-resting.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 50% 90%;
-        background-attachment: fixed;
-    }
-
     #menu {
         display: flex;
 
@@ -669,5 +590,5 @@ footer {
 
     }
 
-  
+
 }
