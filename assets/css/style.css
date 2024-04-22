@@ -83,7 +83,6 @@ body {
 
 }
 
-
 .body>.contact-form {
     flex-direction: column-reverse;
 }
@@ -516,7 +515,7 @@ footer {
         width: 9%;
         height: 9%;
         border: 1px solid #FF1493;
-        border-radius: 15px 15px 15px 15px;
+        border-radius: 15px;
         padding: 5px;
         margin: 10px;
         background-color: #074f57;
