@@ -1,4 +1,4 @@
-![Self-help logo](assets/favicon/favicon-16x16.png)
+![Self-help logo](assets/favicon/favicon-192x192.png)
 
 
 # Self-Care Guide For Young Woman to Menstruation.
@@ -12,7 +12,7 @@
 
 This site can be accessed
 
-        This site can be accessed with this link [link](https:/https://kakilian-menstruationgu-a9ln2842g1p.ws-eu110.gitpod.io//)
+        This site can be accessed with this link [link](https://kakilian-menstruationgu-a9ln2842g1p.ws-eu110.gitpod.io//)
 
 ## User Stories
 
@@ -64,19 +64,17 @@ This site can be accessed
 
 + ### Images and Their Meanings:
 
-        Girl Resting 
-                [- Symbolizes the importance of relaxation and self-care.](assets/image/girl-resting.jpg)
+#### Girl Resting ![link](assets/image/girl-resting.jpg)
+        Symbolizes the importance of relaxation and self-care       
         
-             - Symbolizes the importance of relaxation and self-care.
-        
-        Group of Girls [Link](https//assets/image/girls-group.jpg)
-        - Promotes a sense of community and solidarity.
-        
-        Young Girl [Link](https//assets/image/young-girl.jpg)
-        - Emphasizes the target audience of pre-teens and teenagers.
+#### Group of Girls ![link](https//assets/image/girls-group.jpg)
+        Promotes a sense of community and solidarity.
 
-        Surfer Girls [Link](https//assets/image/young-girl.jpg)
-        - Represents strength, vitality, and empowerment.
+#### Young Girl ![link](https//assets/image/young-girl.jpg)
+        Emphasizes the target audience of pre-teens and teenagers.
+
+#### Surfer Girls ![Link][def]
+        Represents strength, vitality, and empowerment.
 
 
 
@@ -103,3 +101,6 @@ This site can be accessed
 
 
 
+
+
+[def]: https//assets/image/surfer-girls.jpg
