@@ -1,4 +1,4 @@
-![Self-help logo](assets/favicon/favicon-192x192.png)
+![Self-help logo](assets/favicon/android-chrome-512x512.png)
 
 
 # Self-Care Guide For Young Woman to Menstruation.
@@ -10,9 +10,10 @@
 
         This guide aims to empower young women by offering them accurate information about menstruation, debunking myths, and promoting self-care practices. Our goal is to create a safe and supportive space where young women can learn, ask questions, and feel confident about their bodies.
 
-This site can be accessed
+#### This site can be accessed
 
-        This site can be accessed with this link [link](https://kakilian-menstruationgu-a9ln2842g1p.ws-eu110.gitpod.io//)
+        This site can be accessed with this link 
+        ![link](https://kakilian-menstruationgu-a9ln2842g1p.ws-eu110.gitpod.io//)
 
 ## User Stories
 
@@ -36,29 +37,34 @@ This site can be accessed
 
 ## Features
 
+        This website is made up of 5 pages, one of which is a reply-page, after contact is made on the webpage.
+
++ ### Favicon ![favicon](assets/favicon/android-chrome-512x512.png)
+
+        I tried to bring a simple and also clear message, website is made for "teens". All welcome. Everyone! - the Topic may be happening to girls/woman - it is also apart of familys - sisters to brothers or a friend. To help everyone have a small simple look into what is going on.
 + ### Navbar
-        Easy navigation through the site.
+        Easy navigation through the site. I kept the navigation bar going through all 5 pages, to enable total USER control over the website. 
 
-+ #### Homepage 
-        Introduction and key sections
++ #### Homepage ![link](assets/image/testing-for-project/cover.jpg)
+        Introduction from myself, and my role in the community as a mother, nurse and also a friend.
 
-+ #### Hero Section
-        Highlights the purpose of the website and its mission
++ #### Hero Section ![link](assets/image/testing-for-project/page-two.jpg)
+        Highlights the purpose of the website and its mission. A brief, simplified - as a stepping stone - to understand what is going on with my body.
 
-+ #### Highlights Section
++ #### Highlights Section ![link](assets/image/testing-for-project/page-three.jpg)
         Features key information and advice for young women
 
-+ #### APP Button -"Cycle"
-        An intergrate APP button, to help those interested in "Helping, keeping an idea on their "Cycle".
++ #### APP Button -"Cycle" 
+        An intergrate APP button, to help those interested in "Helping to keeping an eye on their "Cycle".
 
-+ #### Contact Page has a contact form, with Question possibity:
-        Includes a contact form with customized fields and optional checkboxes for visitors.
++ #### Contact Page has a contact form, with Question possibity: ![link](assets/image/testing-for-project/page-four.jpg)
+        Includes a contact form with customized fields for visitors. - All fields are required for the 5th page to open.
 
-+ #### Answer Page
-        Displays answered questions and possible feedback from users, including pre-teens, teenagers, or mothers who were satisfied with the content. Also includes new links that have been requested.
++ #### Answer Page ![link](assets/image/testing-for-project/page-five.jpg)
+       Here is a confirmation page, and to let the user that they will be answered, ASAP!
 
-+ #### Colors and Meanings
-        Blue: Represents calmness, trust, and reliability.
++ #### Colors and Meanings ![link](assets/image/testing-for-project/color-pink.jpg)
+        Greens: Symbolizes Beginnings, new growth, vibrant health, and other ideas connected with life, rebirth, and renewal
         Pink: Symbolizes femininity, compassion, and understanding.
 
 
@@ -67,24 +73,28 @@ This site can be accessed
 #### Girl Resting ![link](assets/image/girl-resting.jpg)
         Symbolizes the importance of relaxation and self-care       
         
-#### Group of Girls ![link](https//assets/image/girls-group.jpg)
+#### Group of Girls ![link](assets/image/girls-group.jpg)
         Promotes a sense of community and solidarity.
 
-#### Young Girl ![link](https//assets/image/young-girl.jpg)
+#### Young Girl ![link](assets/image/young-girl.jpg)
         Emphasizes the target audience of pre-teens and teenagers.
 
-#### Surfer Girls ![Link][def]
+#### Surfer Girls ![Link](assets/image/surfer-girls-med.jpg)
         Represents strength, vitality, and empowerment.
 
++ #### Footer 
+        Footer contains social media links, through a hover:button as a small intereaction with the USER, that opens in media links, own new tab.
+        Code is copied from Loverunning.
 
+## Deployment 
+        Github Deployment: 
+        Fork Repository
+        Clone Respositary
 
+## Testing Responsiveness       ![Link](assets/image/testing-for-project/performance-handy.jpg)
+                                ![Link](assets/image/testing-for-project/performance-pc.jpg)
 
-
-+ #### Footer
-        Footer contains social media links that open in their own new tab.
-        Taken from Loverunning
-
-
+## 
 
 
 ## Acknowledgements
@@ -96,11 +106,10 @@ This site can be accessed
         Slack Buddies and Tutors: For helping with coding problems.
         @KyleMar_5P @Thomas_5p @Andy_5p @Tutors-Team
 
-        Kevin Powell: For valuable coding tutorials. Mayn hours spent watching his amazing videos. Also using codes ideas, and tricks.
+        Kevin Powell: For valuable coding tutorials. Many hours spent watching his amazing videos. Also using codes, ideas and learning tricks.
 
 
 
 
 
 
-[def]: https//assets/image/surfer-girls.jpg
