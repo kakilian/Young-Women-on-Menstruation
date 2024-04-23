@@ -56,7 +56,7 @@
 
         Highlights the purpose of the website and its mission. A brief, simplified - as a stepping stone - to understand what is going on with their bodies.
 
-#### Highlights Section [![gallery](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/gallery.html)](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/gallery.html)
+#### Highlights Section [![gallery](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/gallery.html)](https://github.com/kakilian/menstruationgu-/blob/main/gallery/)
 
         Features key information and advice for young women
 
@@ -99,9 +99,7 @@
 
        
 
-## Testing Responsiveness       
-![Mobile Phone](assets/image/testing-for-project/performance-handy.jpg)      
-![Computer](assets/image/testing-for-project/performance-pc.jpg)
+## Testing Responsiveness       ![Mobile Phone](assets/image/testing-for-project/performance-handy.jpg)      ![Computer](assets/image/testing-for-project/performance-pc.jpg)
          Firstly for mobil, and then on pc -with Lighthouse tool.         
 
 
