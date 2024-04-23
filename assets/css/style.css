@@ -509,6 +509,11 @@ footer {
         width: 90%;
     }
 
+    .myths li{
+        
+        text-align: left;
+    }
+
     /* Cycles styling app link*/
     .container-app {
         display: flex;
@@ -566,7 +571,6 @@ footer {
     /* Main content */
     main {
         /* Push main content down to accomadate larger header*/
-
         padding: 0 2em 10em 2em;
     }
 
