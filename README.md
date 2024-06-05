@@ -4,6 +4,8 @@
 
 Welcome to the Menstruation Guide for Young Women! This guide is designed to be a supportive resource for pre-teens and young women, providing them with information, guidance, and a sense of community as they navigate through the natural process of menstruation.
 
+![Am I responsive](assets/image/testing-for-project/amiresponsive.jpg)
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
@@ -35,6 +37,7 @@ Welcome to the Menstruation Guide for Young Women! This guide aims to empower yo
 
 #### This site can be accessed here:
 [Menstruation Guide](https://kakilian-menstruationgu-a9ln2842g1p.ws-eu110.gitpod.io/)
+https://8000-kakilian-menstruationgu-mzlr4wk6km1.ws.codeinstitute-ide.net/index.html
 
 ## User Stories
 
@@ -70,23 +73,23 @@ I chose accessible fonts like Lato and Oswald. Although I considered a handwritt
 The navigation bar is present on all 5 pages for easy user control.
 
 ### Homepage
-[Homepage](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/index.html)
+![Homepage](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/index.html)
 
 Introduction from myself, and my role in the community as a mother, nurse, and friend.
 
 ### Hero Section
-[Hero Section](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/home.html)
+![Hero Section](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/home.html)
 
 Highlights the purpose of the website and its mission, providing a brief overview to help young women understand their bodies.
 
 ### Highlights Section
-[Gallery](https://github.com/kakilian/menstruationgu-/blob/main/gallery/)
+![Gallery](https://github.com/kakilian/menstruationgu-/blob/main/gallery/)
 
 Features key information and advice for young women.
 
 ### APP Button - "Cycle"
 
-An integrated APP button helps those interested in tracking their menstrual cycle.
+An integrated APP button helps those interested in tracking their menstrual cycle. Using alt.
 
 ### Contact Page
 [Contact](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/contact.html)
@@ -145,11 +148,11 @@ Tested for mobile and then on PC using the Lighthouse tool.
 
 - Kevin Powell
 - Love Running Project
-- GitHub
+- GitHub Templates
 
 ## Acknowledgements
 
 - **Daughters:** For helping develop this idea, testing the website, and providing valuable input as my target audience.
 - **My Mentor:** For helping understand the target audience and the message, and supporting the idea. @Juliia_mentor
-- **Slack Buddies and Tutors:** For helping with coding problems. @KyleMar_5P @Thomas_5p @Andy_5p @Tutors-Team
+- **Slack Buddies and Tutors:** For helping with coding problems.
 - **Kevin Powell:** For valuable coding tutorials and inspiration.
