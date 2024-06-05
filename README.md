@@ -1,5 +1,3 @@
-Sure, here's the revised README with a Table of Contents that links to the corresponding sections within the document:
-
 ![Self-Help log](assets/favicon/android-chrome-512x512.png)
 
 # Self-Care Guide for Young Women on Menstruation
