@@ -35,8 +35,8 @@ Welcome to the Menstruation Guide for Young Women! This guide is designed to be 
 
 Welcome to the Menstruation Guide for Young Women! This guide aims to empower young women by offering them accurate information about menstruation, debunking myths, and promoting self-care practices. Our goal is to create a safe and supportive space where young women can learn, ask questions, and feel confident about their bodies.
 
-#### This site can be accessed here:
-
+## Balsamiq Usage
+![Balsamiq](assets/image/balsamiq.pp1.pdf)
 
 ## User Stories
 
@@ -93,13 +93,11 @@ An integrated APP button helps those interested in tracking their menstrual cycl
 
 ### Contact Page
 [Contact](assets/image/testing-for-project/page-four.jpg)
-#### Answer Page
-[Answer](assets/image/testing-for-project/page-five.jpg)
 
 Includes a contact form with required fields for visitors to ask questions.
 
 ### Answer Page
-[Answer](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/answer.html)
+![Answer](assets/image/testing-for-project/page-five.jpg)
 
 A confirmation page informs users that their questions will be answered.
 
@@ -143,6 +141,8 @@ GitHub Deployment: [Deployment](https://github.com/kakilian/menstruation-guide-p
 ![W3C](https://validator.w3.org/nu/#textarea)
 [html](assets/image/pp1.errors.html.ignoring.png) Reported 5 errors in html. One error I am ignoring on <article class="wrapper-flow"> its saying I need to identify headings- which I do.
 ![W3C](https://jigsaw.w3.org/css-validator/validator) 3 reported errors in css that have been corrected.
+
+** In html I have not added the images, as I have them in css so I could adjust the lighting on the images. This also shows as an error. **
 
 Tested for mobile and then on PC using the Lighthouse tool.
 
