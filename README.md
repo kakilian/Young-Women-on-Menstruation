@@ -8,12 +8,14 @@ Welcome to the Menstruation Guide for Young Women! This guide is designed to be 
 
 ## Table of Contents
 
+
 1. [Introduction](#introduction)
-2. [User Stories](#user-stories)
+2. [Balsamiq Usage](#balsamiq-usage)
+3. [User Stories](#user-stories)
    - [First Time Visitors Goals](#first-time-visitors-goals)
    - [Returning Visitors Goals](#returning-visitors-goals)
    - [Frequent Visitor Goals](#frequent-visitor-goals)
-3. [Features](#features)
+4. [Features](#features)
    - [Favicon](#favicon)
    - [Font](#font)
    - [Navbar](#navbar)
@@ -26,10 +28,11 @@ Welcome to the Menstruation Guide for Young Women! This guide is designed to be 
    - [Colors and Meanings](#colors-and-meanings)
    - [Images and Their Meanings](#images-and-their-meanings)
    - [Footer](#footer)
-4. [Deployment](#deployment)
-5. [Testing Responsiveness](#testing-responsiveness)
-6. [Using Code from Other Sources](#using-code-from-other-sources)
-7. [Acknowledgements](#acknowledgements)
+5. [Roadmap](#roadmap)
+6. [Deployment](#deployment)
+7. [Testing Responsiveness](#testing-responsiveness)
+8. [Using Code from Other Sources](#using-code-from-other-sources)
+9. [Acknowledgements](#acknowledgements)
 
 ## Introduction
 
@@ -106,27 +109,8 @@ A confirmation page informs users that their questions will be answered.
 
 ### Footer 
 
-- The footer section includes links to the relevant sozial meida sites for this page. THe links will opne to a new tabe allowing the user easy access to both pages at once.
-
-- The footer is valuable to the user as it encourages them to get connected via sozial media.
-
-## Road Map
-
-- Interactive Quizzes or Assessments
-Develop interactive quizzes or assessments related to menstruation, self-care, and health to engage users and provide personalized recommendations based on their responses.
-
-- Community Forums or Support groups
-USing establish community forums or support groups outside of the interent where users can connect if they want to share experiences or need more support outside of the website.
-
-- Questions and Answers
-Letting users see past questions, where they could possible relate to and would be able to share their experiences.
-
-- Forschung 
-Sharing possible links into further education and the ongoing research using it as an educational porthole. Not only to educate but to enpower them along their journey.
-
-- Partner Information
-Teaching not only information to the immediate user, but also helping their brothers, friends, family to be informed or "How to help" - "What does this mean" - I got approached by a couple of teenagers in my daughters age asking about what they could do, after looking at APP they found it very informative. So it would be good to have a little corner for them too. 
-
+- The footer section includes links to relevant social media sites for this page. The links will open in a new tab, allowing the user easy access to both pages at once.
+- The footer is valuable to the user as it encourages them to get connected via social media.
 
 ### Colors and Meanings
 ![Pink Color](assets/image/testing-for-project/color-pink.jpg)
@@ -157,27 +141,52 @@ Represents strength, vitality, and empowerment.
 
 The footer contains social media links, opening in new tabs, for interaction with the user. Code is copied from LoveRunning.
 
+## Roadmap
+
+### Interactive Quizzes or Assessments
+Develop quizzes related to menstruation and self-care to engage users and provide personalized recommendations.
+
+### Community Forums or Support Groups
+Establish forums or support groups where users can share experiences and offer mutual support.
+
+### Questions and Answers
+Implement a section where users can view previously asked questions and answers, fostering a sense of community and shared learning.
+
+### Research and Education
+Include links to educational resources and ongoing research to empower users with knowledge and promote continuous learning.
+
+### Partner Information
+Provide information for siblings, friends, and family members to help them understand and support the primary users.
+
 ## Deployment
 
-GitHub Deployment: [Deployment](https://github.com/kakilian/menstruation-guide-project-1/deployments)
+1. github repo: https://github.com/kakilian/menstruation-guide-project-1
+2. deployment page: https://kakilian.github.io/menstruation-guide-project-1/
 
 ## Testing Responsiveness
-![Mobile Phone](assets/image/testing-for-project/performance-handy.jpg)
-![Computer](assets/image/testing-for-project/performance-pc.jpg)
 
-![W3C](https://validator.w3.org/nu/#textarea)
-[html](assets/image/pp1.errors.html.ignoring.png) Reported 5 errors in html. One error I am ignoring on <article class="wrapper-flow"> its saying I need to identify headings- which I do.
-![W3C](https://jigsaw.w3.org/css-validator/validator) 3 reported errors in css that have been corrected.
+## Testing
+
+Extensive testing was conducted to ensure the website works across different browsers and screen sizes.
+
+### Validator Testing
+- **HTML:** Reported 5 errors were found when passing through the official W3C validator.
+- **CSS:** Reported 3 errors were found when passing through the official (Jigsaw) validator.
+
+### Unfixed Bugs
 
 ** In html I have not added the images, as I have them in css so I could adjust the lighting on the images. This also shows as an error. **
+
+![Mobile Phone](assets/image/testing-for-project/performance-handy.jpg)
+![Computer](assets/image/testing-for-project/performance-pc.jpg)
 
 Tested for mobile and then on PC using the Lighthouse tool.
 
 ## Using Code from Other Sources
 
-- Kevin Powell
-- Love Running Project
-- GitHub Templates
+- **Kevin Powell** 
+- **Love Running Project** - media code links
+- **GitHub Code Insitute** Templates for Readme
 
 ## Acknowledgements
 
