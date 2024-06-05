@@ -82,7 +82,7 @@ Introduction from myself, and my role in the community as a mother, nurse, and f
 Highlights the purpose of the website and its mission, providing a brief overview to help young women understand their bodies.
 
 ### Highlights Section
-![Gallery](assets/image/testing-for-project/page-three.jpg
+![Gallery](assets/image/testing-for-project/page-three.jpg)
 
 Features key information and advice for young women.
 

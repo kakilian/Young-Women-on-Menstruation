@@ -8,7 +8,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 /* General styles */
@@ -21,10 +20,10 @@ body {
     line-height: 1.2;
     background-color: #e7dfdf;
     font-weight: 700;
-
 }
 
 /* Photos */
+
 .bg__index {
     background-image: linear-gradient(14deg,
             rgba(2, 0, 36, 0.377) 0%,
@@ -86,6 +85,7 @@ body {
     flex-direction: column-reverse;
 }
 
+/* Content style */
 .columns {
     display: flex;
     flex-direction: column;
@@ -106,7 +106,6 @@ body {
     font-size: 1.5em;
     font-weight: 900;
     color: #ffffff;
-
 }
 
 .columns>h4 {
@@ -118,7 +117,6 @@ body {
     width: 85%;
     display: flex;
     height: auto;
-
 }
 
 .container {
@@ -130,7 +128,6 @@ body {
     padding: 5px;
     margin: 10px;
     background-color: #074f57;
-
 }
 
 /* Header */
@@ -147,7 +144,7 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
+/* Logo for the website */
 #logo {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -156,9 +153,12 @@ header {
 
 }
 
+/* Navigations Bar */
 nav {
     display: flex;
 }
+
+/* Font styles */
 
 h1 {
     font-family: 'Oswald', sans-serif;
@@ -170,12 +170,13 @@ h1 {
 h2 {
     text-transform: uppercase;
     margin-top: 80px;
-
 }
 
 h3 {
     color: #00CED1;
 }
+
+/* The Medical and non-medical being highlighted */
 
 #non-medical {
     color: #e5137c
@@ -185,6 +186,7 @@ h3 {
     color: #e5137c
 }
 
+/* Dropdown menu */
 #menu {
     list-style-type: none;
 }
@@ -201,7 +203,6 @@ h3 {
 
 #menu li a:hover {
     color: #ff1493;
-
 }
 
 /* Navbar Styles with dropdown toggle */
@@ -216,7 +217,6 @@ nav {
     display: none;
     top: 100%;
 }
-
 
 /* Nav Toggle */
 
@@ -233,6 +233,7 @@ nav {
     font-weight: 900;
     color: #074f57
 }
+/* Menu-icon */
 
 .menu-icon {
     font-size: 2rem;
@@ -240,6 +241,7 @@ nav {
 
 
 /* Cycles styling app link*/
+
 .cycles {
     display: flex;
     flex: 0 0 0;
@@ -247,7 +249,6 @@ nav {
     text-decoration: none;
     font-weight: bold;
     transition: color, 3s ease;
-
 }
 
 .cycles:hover {
@@ -263,7 +264,6 @@ nav {
     padding: 5px;
     margin: 10px;
     background-color: #074f57;
-
 }
 
 /* Contact form */
@@ -275,13 +275,13 @@ form {
     min-width: auto;
     align-items: center;
     padding: 10px;
-
-
 }
 
 h2>.contact-text {
     padding: 2px;
 }
+
+/* Contact Form */
 
 .contact-form {
     justify-content: center;
@@ -324,10 +324,10 @@ h2>.contact-text {
 
 .form-group textarea {
     resize: vertical;
-
 }
 
 /* Button */
+
 button[type="submit"] {
     background-color: #074f57;
     color: white;
@@ -339,7 +339,6 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #ff1493;
-
 }
 
 .question {
@@ -354,9 +353,10 @@ button[type="submit"]:hover {
     padding: 10px;
 }
 
+/* Answer Page */
+
 #answer {
     max-width: 280px;
-
 }
 
 #answer-title {
@@ -365,7 +365,6 @@ button[type="submit"]:hover {
     margin-bottom: 15px;
     margin-left: 5px;
     margin-right: 5px;
-
 }
 
 #answer-text {
@@ -374,6 +373,8 @@ button[type="submit"]:hover {
     margin-left: 5px;
     margin-right: 5px;
 }
+
+/* Contact form with footnote for further advice */
 
 .disclaimer>* {
     padding-top: 3rem;
@@ -468,7 +469,7 @@ footer {
         margin-top: 80px;
         padding: 0 2em 10em 2em;
     }
-
+    /* Logo */
     #logo {
         font-size: 230%;
         line-height: 75px;
@@ -477,8 +478,9 @@ footer {
 
     .wrapper-flow {
         margin-top: 90px;
-
     }
+
+    /* Images */
 
     .gallery h2 {
         margin-top: 160px;
@@ -486,7 +488,6 @@ footer {
 
     .gallery .columns {
         padding-bottom: 50px;
-
     }
 
     .gallery #cover-text h2 {
@@ -495,11 +496,9 @@ footer {
 
     .gallery #cover-text h3 {
         font-size: 1.8em;
-
     }
 
     .gallery #cover-text h4 {
-
         font-size: 1.6em;
     }
 
@@ -588,8 +587,5 @@ footer {
         padding: 5px;
         margin: 10px;
         background-color: #074f57;
-
     }
-
-
 }
