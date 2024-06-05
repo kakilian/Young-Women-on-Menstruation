@@ -36,8 +36,7 @@ Welcome to the Menstruation Guide for Young Women! This guide is designed to be 
 Welcome to the Menstruation Guide for Young Women! This guide aims to empower young women by offering them accurate information about menstruation, debunking myths, and promoting self-care practices. Our goal is to create a safe and supportive space where young women can learn, ask questions, and feel confident about their bodies.
 
 #### This site can be accessed here:
-[Menstruation Guide](https://kakilian-menstruationgu-a9ln2842g1p.ws-eu110.gitpod.io/)
-https://8000-kakilian-menstruationgu-mzlr4wk6km1.ws.codeinstitute-ide.net/index.html
+
 
 ## User Stories
 
@@ -73,26 +72,29 @@ I chose accessible fonts like Lato and Oswald. Although I considered a handwritt
 The navigation bar is present on all 5 pages for easy user control.
 
 ### Homepage
-![Homepage](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/index.html)
+![Homepage](assets/image/testing-for-project/cover.jpg)
 
 Introduction from myself, and my role in the community as a mother, nurse, and friend.
 
 ### Hero Section
-![Hero Section](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/home.html)
+![Hero Section](assets/image/testing-for-project/page-two.jpg)
 
 Highlights the purpose of the website and its mission, providing a brief overview to help young women understand their bodies.
 
 ### Highlights Section
-![Gallery](https://github.com/kakilian/menstruationgu-/blob/main/gallery/)
+![Gallery](assets/image/testing-for-project/page-three.jpg
 
 Features key information and advice for young women.
 
 ### APP Button - "Cycle"
 
 An integrated APP button helps those interested in tracking their menstrual cycle. Using alt.
+![APP from Apple](https://cycles.app/) 
 
 ### Contact Page
-[Contact](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/contact.html)
+[Contact](assets/image/testing-for-project/page-four.jpg)
+#### Answer Page
+[Answer](assets/image/testing-for-project/page-five.jpg)
 
 Includes a contact form with required fields for visitors to ask questions.
 
