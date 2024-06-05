@@ -260,13 +260,12 @@ nav {
 }
 
 .container-app {
-    display: flex;
-    width: 20%;
+    width: 15%;
     height: 20%;
     border: 1px solid #FF1493;
     border-radius: 15px 15px 15px 15px;
-    padding: 5px;
-    margin: 10px;
+    padding: 1px;
+    margin: 2px;
     background-color: #074f57;
 }
 
@@ -374,6 +373,7 @@ button[type="submit"]:hover {
     border: 1px solid #ff1493;
     border-radius: 5px;
     box-sizing: border-box;
+    border-color: #FF1493;
 }
 #answer-title {
     color: #ff1493;
@@ -483,6 +483,10 @@ footer {
         margin-top: 80px;
         padding: 0 2em 10em 2em;
     }
+    p {
+        grid-template-columns: 3;
+    }
+    
     /* Logo */
     #logo {
         font-size: 230%;
@@ -521,19 +525,18 @@ footer {
     }
 
     .myths li{
-        
         text-align: left;
     }
 
     /* Cycles styling app link*/
+
     .container-app {
         display: flex;
-        width: 9%;
-        height: 9%;
+        width: 2%;
+        height: 2%;
         border: 1px solid #FF1493;
-        border-radius: 15px;
-        padding: 5px;
-        margin: 10px;
+        border-radius: 1px;
+        margin: 2px;
         background-color: #074f57;
 
     }
@@ -590,16 +593,14 @@ footer {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-
-    /* Cycles styling app link*/
+      /* Cycles styling app link*/
     .container-app {
         display: flex;
-        width: 5%;
-        height: 5%;
-        border: 1px solid #FF1493;
+        width: 3%;
+        height: auto;
+        border: 3px solid #FF1493;
         border-radius: 15px 15px 15px 15px;
-        padding: 5px;
-        margin: 10px;
+        margin: 5px;
         background-color: #074f57;
     }
 }

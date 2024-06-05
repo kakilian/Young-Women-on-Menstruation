@@ -170,8 +170,8 @@ Provide information for siblings, friends, and family members to help them under
 Extensive testing was conducted to ensure the website works across different browsers and screen sizes.
 
 ### Validator Testing
-- **HTML:** Reported 5 errors were found when passing through the official W3C validator.
-- **CSS:** Reported 3 errors were found when passing through the official (Jigsaw) validator.
+- **HTML:** Reported 5 errors were found when passing through the official W3C validator. Indentation, not closed <div>s. No images with alt in html. Author incorrectly entered.
+- **CSS:** No reported errors were found when passing through the official (Jigsaw) validator.
 
 ### Unfixed Bugs
 
