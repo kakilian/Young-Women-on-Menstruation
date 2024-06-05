@@ -69,12 +69,14 @@ I chose accessible fonts like Lato and Oswald. Although I considered a handwritt
 
 ### Navbar
 
-The navigation bar is present on all 5 pages for easy user control.
+The navigation bar is present on all 5 pages for easy user control, it is fully responsive navagation bar includes links to the logo, Home Page, Gallery and Contact/Answer pages. It is identical on all pages, allowing for easy navigation
+
+This section allows the users to navigate from page to page and also to go back one page. By using the dropdown Navigation bar on a mobil phone or clicking on it on a pc.
 
 ### Homepage
 ![Homepage](assets/image/testing-for-project/cover.jpg)
 
-Introduction from myself, and my role in the community as a mother, nurse, and friend.
+Introduction from myself, and my role in the community as a mother, nurse, and friend. I have picked a faceless photo, as I believe at this age it can be an awkard stage in their lifes. I also tried to keep it simple. With only a short text to get the user to look further into the website. 
 
 ### Hero Section
 ![Hero Section](assets/image/testing-for-project/page-two.jpg)
@@ -95,11 +97,36 @@ An integrated APP button helps those interested in tracking their menstrual cycl
 [Contact](assets/image/testing-for-project/page-four.jpg)
 
 Includes a contact form with required fields for visitors to ask questions.
+Also there is a disclaimer passage, to make sure that the user will get the best help that is needed at various times. Some countries have specialized doctors for woman.
 
 ### Answer Page
 ![Answer](assets/image/testing-for-project/page-five.jpg)
 
 A confirmation page informs users that their questions will be answered.
+
+### Footer 
+
+- The footer section includes links to the relevant sozial meida sites for this page. THe links will opne to a new tabe allowing the user easy access to both pages at once.
+
+- The footer is valuable to the user as it encourages them to get connected via sozial media.
+
+## Road Map
+
+- Interactive Quizzes or Assessments
+Develop interactive quizzes or assessments related to menstruation, self-care, and health to engage users and provide personalized recommendations based on their responses.
+
+- Community Forums or Support groups
+USing establish community forums or support groups outside of the interent where users can connect if they want to share experiences or need more support outside of the website.
+
+- Questions and Answers
+Letting users see past questions, where they could possible relate to and would be able to share their experiences.
+
+- Forschung 
+Sharing possible links into further education and the ongoing research using it as an educational porthole. Not only to educate but to enpower them along their journey.
+
+- Partner Information
+Teaching not only information to the immediate user, but also helping their brothers, friends, family to be informed or "How to help" - "What does this mean" - I got approached by a couple of teenagers in my daughters age asking about what they could do, after looking at APP they found it very informative. So it would be good to have a little corner for them too. 
+
 
 ### Colors and Meanings
 ![Pink Color](assets/image/testing-for-project/color-pink.jpg)

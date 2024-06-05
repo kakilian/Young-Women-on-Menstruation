@@ -34,6 +34,7 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    background-blend-mode: multiply;
 }
 
 .bg__home {
@@ -46,6 +47,7 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    background-blend-mode: multiply;
 }
 
 .bg__gallery {
@@ -58,6 +60,7 @@ body {
     background-size: cover;
     background-position: center top;
     background-attachment: fixed;
+    background-blend-mode: multiply;
 }
 
 .bg__contact {
@@ -70,6 +73,7 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    background-blend-mode: multiply;
 }
 
 .wrapper-flow {
