@@ -1,5 +1,4 @@
 /* Google fonts import */
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 
@@ -40,9 +39,9 @@ body {
 
 .bg__home {
     background-image: linear-gradient(14deg,
-            rgba(2, 0, 36, 0.377) 0%,
-            rgba(9, 9, 121, 0.356) 6%,
-            rgba(62, 69, 70, 0.5) 100%),
+            rgba(2, 0, 36, 0.7) 0%,
+            rgba(9, 9, 121, 0.7) 6%,
+            rgba(62, 69, 70, 0.7) 100%),
         url('../image/girls-group.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,9 +51,9 @@ body {
 
 .bg__gallery {
     background-image: linear-gradient(14deg,
-            rgba(2, 0, 36, 0.377) 0%,
-            rgba(9, 9, 121, 0.356) 6%,
-            rgba(62, 69, 70, 0.5) 100%),
+            rgba(2, 0, 36, 0.7) 0%,
+            rgba(9, 9, 121, 0.7) 6%,
+            rgba(62, 69, 70, 0.7) 100%),
         url('../image/surfer-girls.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,9 +63,9 @@ body {
 
 .bg__contact {
     background-image: linear-gradient(14deg,
-            rgba(2, 0, 36, 0.377) 0%,
-            rgba(9, 9, 121, 0.356) 6%,
-            rgba(62, 69, 70, 0.5) 100%),
+            rgba(2, 0, 36, 0.7) 0%,
+            rgba(9, 9, 121, 0.7) 6%,
+            rgba(62, 69, 70, 0.7) 100%),
         url('../image/girl-resting.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -247,7 +246,7 @@ nav {
     color: yellow;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0, 3s ease;
+    transition: color, 3s ease;
 
 }
 
@@ -281,7 +280,6 @@ form {
 }
 
 h2>.contact-text {
-    margin-top: none;
     padding: 2px;
 }
 
@@ -290,7 +288,7 @@ h2>.contact-text {
     align-items: center;
     max-width: 400px;
     padding: 2px;
-    background-color: #074f57 0, 2;
+    background-color: #074f57;
     border: 1px solid #ff1493;
     border-radius: 5px;
 }

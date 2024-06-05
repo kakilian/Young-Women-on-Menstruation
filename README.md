@@ -1,123 +1,157 @@
-![Self-help logo](assets/favicon/android-chrome-512x512.png)
+Sure, here's the revised README with a Table of Contents that links to the corresponding sections within the document:
 
+![Self-Help log](assets/favicon/android-chrome-512x512.png)
 
-# Self-Care Guide For Young Woman on Menstruation.
+# Self-Care Guide for Young Women on Menstruation
 
-        Welcome to the Menstruation Guide for young women! This guide is designed to be a supportive resource for pre-teens and young women, providing them with information, guidance, and a sense of community as they navigate through the natural process of menstruation.
+Welcome to the Menstruation Guide for Young Women! This guide is designed to be a supportive resource for pre-teens and young women, providing them with information, guidance, and a sense of community as they navigate through the natural process of menstruation.
 
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [User Stories](#user-stories)
+   - [First Time Visitors Goals](#first-time-visitors-goals)
+   - [Returning Visitors Goals](#returning-visitors-goals)
+   - [Frequent Visitor Goals](#frequent-visitor-goals)
+3. [Features](#features)
+   - [Favicon](#favicon)
+   - [Font](#font)
+   - [Navbar](#navbar)
+   - [Homepage](#homepage)
+   - [Hero Section](#hero-section)
+   - [Highlights Section](#highlights-section)
+   - [APP Button - "Cycle"](##app-button---cycle)
+   - [Contact Page](#contact-page)
+   - [Answer Page](#answer-page)
+   - [Colors and Meanings](#colors-and-meanings)
+   - [Images and Their Meanings](#images-and-their-meanings)
+   - [Footer](#footer)
+4. [Deployment](#deployment)
+5. [Testing Responsiveness](#testing-responsiveness)
+6. [Using Code from Other Sources](#using-code-from-other-sources)
+7. [Acknowledgements](#acknowledgements)
 
 ## Introduction
 
-        Welcome to the Menstruation Guide for yound woman!
-        This guide aims to empower young women by offering them accurate information about menstruation, debunking myths, and promoting self-care practices. Our goal is to create a safe and supportive space where young women can learn, ask questions, and feel confident about their bodies.
+Welcome to the Menstruation Guide for Young Women! This guide aims to empower young women by offering them accurate information about menstruation, debunking myths, and promoting self-care practices. Our goal is to create a safe and supportive space where young women can learn, ask questions, and feel confident about their bodies.
 
-#### This site can be accessed
-
-        This site can be accessed with this link 
-        [![link](https://kakilian-menstruationgu-a9ln2842g1p.ws-eu110.gitpod.io/)](https://kakilian-menstruationgu-a9ln2842g1p.ws-eu110.gitpod.io/)
-
+#### This site can be accessed here:
+[Menstruation Guide](https://kakilian-menstruationgu-a9ln2842g1p.ws-eu110.gitpod.io/)
 
 ## User Stories
 
 ### First Time Visitors Goals:
-
-        Understanding: Easily comprehensible information without feeling embarrassed or ashamed.
-        Navigation: Easy navigation to find the desired information or advice.
-        Trustworthiness: Verify the trustworthiness of the site and read feedback from others who have used it.
-
+- **Understanding:** Easily comprehensible information without feeling embarrassed or ashamed.
+- **Navigation:** Easy navigation to find the desired information or advice.
+- **Trustworthiness:** Verify the trustworthiness of the site and read feedback from others who have used it.
 
 ### Returning Visitors Goals:
+- **Reliability:** Trust in prompt and reliable answers to questions.
+- **Support:** Share the website with friends for mutual support.
+- **Continued Learning:** Access and understand new content or updates.
 
-        Reliability: Trust in prompt and reliable answers to questions.
-        Support: Share the website with friends for mutual support.
-        Continued Learning: Access and understand new content or updates.
-
-### Frequent Visitor Goals
-
-        Question Response: Check if questions have been answered promptly and respectfully.
-        Privacy: Expect privacy regarding asked questions.
+### Frequent Visitor Goals:
+- **Question Response:** Check if questions have been answered promptly and respectfully.
+- **Privacy:** Expect privacy regarding asked questions.
 
 ## Features
-        This website is made up of 5 pages, one of which is a reply-page, after contact is made on the webpage.
 
-### Favicon ![Self-Help-Logo](assets/favicon/android-chrome-192x192.png)
-        I tried to bring a simple and also clear message, website is made for "teens". All welcome. Everyone! - the Topic may be happening to girls/woman - it is also apart of familys - sisters to brothers or a friend. To help everyone have a small simple look into what is going on.
+This website consists of 5 pages, including a reply page after contact is made on the webpage.
 
-### Font 
-        I decided to use an all over easy-to-access-fonts. Possible Access for All! lato and Oswald. I did think about making a type of written font, decided against it, due to the fact there were comments in font-google, that not all mobile phones would be supported with fonts I thought would be good. For sure modern telephones. Looking at my target Audience, though experience -mostly get their parents or hand me down Mobilphones from family or friends.
+### Favicon
+![Self-Help-Logo](assets/favicon/android-chrome-192x192.png)
+
+The favicon is simple and clear, indicating the website is made for teens. It is inclusive and designed to help everyone understand what is going on.
+
+### Font
+
+I chose accessible fonts like Lato and Oswald. Although I considered a handwritten font, feedback indicated it might not be supported on all mobile phones, especially older models often used by my target audience.
+
 ### Navbar
-        Easy navigation through the site. I kept the navigation bar present on all 5 pages, to enable total USER control over the website. 
 
-#### Homepage [![home](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/index.html)](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/index.html)
+The navigation bar is present on all 5 pages for easy user control.
 
-        Introduction from myself, and my role in the community as a mother, nurse and also a friend.
+### Homepage
+[Homepage](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/index.html)
 
-#### Hero Section [![hero section](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/home.html)](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/home.html)
+Introduction from myself, and my role in the community as a mother, nurse, and friend.
 
-        Highlights the purpose of the website and its mission. A brief, simplified - as a stepping stone - to understand what is going on with their bodies.
+### Hero Section
+[Hero Section](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/home.html)
 
-#### Highlights Section [![gallery](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/gallery.html)](https://github.com/kakilian/menstruationgu-/blob/main/gallery/)
+Highlights the purpose of the website and its mission, providing a brief overview to help young women understand their bodies.
 
-        Features key information and advice for young women
+### Highlights Section
+[Gallery](https://github.com/kakilian/menstruationgu-/blob/main/gallery/)
 
-#### APP Button -"Cycle" 
-        An intergrate APP button, to help those interested in "Helping to keeping an eye on their "Cycle".
+Features key information and advice for young women.
 
-#### Contact Page has a contact form, with a possibility to ask questions!: [![contact](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/contact.html)](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/contact.html)
+### APP Button - "Cycle"
 
-        Includes a contact form with customized fields for visitors. - All fields are required for the 5th page to open.
+An integrated APP button helps those interested in tracking their menstrual cycle.
 
-#### Answer Page [![answer](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/answer.html)](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/answer.html)
+### Contact Page
+[Contact](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/contact.html)
 
-       Here is a confirmation page, and to inform the user that they will be answered.
+Includes a contact form with required fields for visitors to ask questions.
 
-#### Colors and Meanings ![link](assets/image/testing-for-project/color-pink.jpg) ![link](assets/image/testing-for-project/greenie-color.jpg)
-        Greens: Symbolizes beginnings, new growth, vibrant health, and other ideas connected with life, rebirth, and renewal
-        Pink: Symbolizes femininity, compassion, and understanding.
+### Answer Page
+[Answer](https://github.com/kakilian/menstruationgu-a9ln2842g1p.ws-eu110/blob/main/answer.html)
 
+A confirmation page informs users that their questions will be answered.
 
-### Images and Their Meanings:
+### Colors and Meanings
+![Pink Color](assets/image/testing-for-project/color-pink.jpg)
+![Green Color](assets/image/testing-for-project/greenie-color.jpg)
 
-#### Girl Resting ![link](assets/image/girl-resting.jpg)
-        Symbolizes the importance of relaxation and self-care       
-        
-#### Group of Girls ![link](assets/image/girls-group.jpg)
-        Promotes a sense of community and solidarity.
+- **Greens:** Symbolize beginnings, new growth, vibrant health, and renewal.
+- **Pinks:** Symbolize femininity, compassion, and understanding.
 
-#### Young Girl ![link](assets/image/young-girl.jpg)
-        Emphasizes the target audience of pre-teens and teenagers.
+### Images and Their Meanings
 
-#### Surfer Girls ![Link](assets/image/surfer-girls.jpg)
-        Represents strength, vitality, and empowerment.
+#### Girl Resting
+![Girl Resting](assets/image/girl-resting.jpg)
+Symbolizes the importance of relaxation and self-care.
 
-+ #### Footer 
-        Footer contains social media links, through a hover button as a small intereaction with the USER, that opens in media links, own new tab.
-        Code is copied from Loverunning.
+#### Group of Girls
+![Group of Girls](assets/image/girls-group.jpg)
+Promotes a sense of community and solidarity.
 
-## Deployment 
-        Github Deployment: Github Deployment: [![github](https://github.com/kakilian/menstruation-guide-project-1/deployments)](https://github.com/kakilian/menstruation-guide-project-1/deployments)
+#### Young Girl
+![Young Girl](assets/image/young-girl.jpg)
+Emphasizes the target audience of pre-teens and teenagers.
 
-       
+#### Surfer Girls
+![Surfer Girls](assets/image/surfer-girls.jpg)
+Represents strength, vitality, and empowerment.
 
-## Testing Responsiveness       ![Mobile Phone](assets/image/testing-for-project/performance-handy.jpg)      ![Computer](assets/image/testing-for-project/performance-pc.jpg)
-         Firstly for mobil, and then on pc -with Lighthouse tool.         
+### Footer
 
+The footer contains social media links, opening in new tabs, for interaction with the user. Code is copied from LoveRunning.
 
+## Deployment
 
+GitHub Deployment: [Deployment](https://github.com/kakilian/menstruation-guide-project-1/deployments)
+
+## Testing Responsiveness
+![Mobile Phone](assets/image/testing-for-project/performance-handy.jpg)
+![Computer](assets/image/testing-for-project/performance-pc.jpg)
+
+![W3C](https://validator.w3.org/nu/#textarea)
+[html](assets/image/pp1.errors.html.ignoring.png) Reported 5 errors in html. One error I am ignoring on <article class="wrapper-flow"> its saying I need to identify headings- which I do.
+![W3C](https://jigsaw.w3.org/css-validator/validator) 3 reported errors in css that have been corrected.
+
+Tested for mobile and then on PC using the Lighthouse tool.
+
+## Using Code from Other Sources
+
+- Kevin Powell
+- Love Running Project
+- GitHub
 
 ## Acknowledgements
 
-        Daughters: for helping develop this idea, and trying the website, giving their much-valued input as "my target audience".
-
-        my Mentor: For helping understand the target audience and the message, mostly the working advice, and supporting the idea. @Juliia_mentor
-        
-        Slack Buddies and Tutors: For helping with coding problems.
-        @KyleMar_5P @Thomas_5p @Andy_5p @Tutors-Team
-
-        Kevin Powell: For valuable coding tutorials. Many hours spent watching his amazing videos. Also using codes, ideas and learning tricks.
-
-
-
-
-
-
+- **Daughters:** For helping develop this idea, testing the website, and providing valuable input as my target audience.
+- **My Mentor:** For helping understand the target audience and the message, and supporting the idea. @Juliia_mentor
+- **Slack Buddies and Tutors:** For helping with coding problems. @KyleMar_5P @Thomas_5p @Andy_5p @Tutors-Team
+- **Kevin Powell:** For valuable coding tutorials and inspiration.
