@@ -122,20 +122,20 @@ Features key information and advice for young women.
 
 An integrated APP button helps those interested in tracking their menstrual cycle. Using alt.
 
-![APP from Apple](https://cycles.app)
+![APP from Apple] https://cycles.app
 
 ---
 
 
 ### Contact Page
-[Contact](/workspace/menstruation-guide-project-1/assets/image/testing-for-project/page-four.jpg)
+[Contact](assets/image/testing-for-project/page-four.jpg)
 
 - Includes a customized input fields, contact form with required fields for visitors to ask questions.
 - All fields are required to be fulled out.
 - It is a voluntary area to place private/ concerning questions.
 - There is a submit button when all fields have been fulled out.
 
-- The page is responsive on all commone screen sizes.
+- The page is responsive on all common screen sizes.
 - The submit button leads to the response page.
 
 Also there is a disclaimer passage, to make sure that the user will get the best help that is needed at various times. Some countries have specialized doctors for woman.
@@ -148,7 +148,7 @@ Also there is a disclaimer passage, to make sure that the user will get the best
 
 A confirmation page informs users that their questions will be answered.
 - Response page appears after submitting the contact form.
-- It contains the thank you message and the promise to get quickly back intouch with the user.
+- It contains the thank you message and the promise - to get back intouch with the user.
 
 ---
 
@@ -286,7 +286,7 @@ In your IDE Terminal, type the following command to clone my repositiry:
 
 ## Acknowledgements
 
-- **Daughters:** For helping develop this idea, testing the website, and providing valuable input as my target audience.
-- **My Mentor:[Juliia- Mentor]**(https://github.com/luliiaKonovalova) For helping understand the target audience and the message, and supporting the idea. @Juliia_mentor
+- **My Daughters:** For helping develop this idea, testing the website, and providing valuable input as my target audience.
+- **My Mentor:[Juliia- Mentor]**(https://github.com/luliiaKonovalova) For helping understand the target audience and the message, and supporting the idea. 
 - **Slack Buddies and Tutors:[Code Institute]**(https://condeinstitute.net) For helping with coding problems.
 - **[Kevin Powell]:** (https://www.youtube.com/user/KepowOb) For valuable coding tutorials and inspiration.
