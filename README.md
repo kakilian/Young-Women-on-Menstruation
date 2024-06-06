@@ -122,7 +122,7 @@ Features key information and advice for young women.
 
 An integrated APP button helps those interested in tracking their menstrual cycle. Using alt.
 
-![APP from Apple](https://cycles.app/)
+![APP from Apple](https://cycles.app)
 
 ---
 
