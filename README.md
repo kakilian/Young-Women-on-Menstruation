@@ -104,7 +104,7 @@ Introduction from myself, and my role in the community as a mother, nurse, and f
 
 Highlights the purpose of the website and its mission, providing a brief overview to help young women understand their bodies.
 - Easy to understand, and user relateable content.
-- 
+
 ---
 
 ### Highlights Section
@@ -122,13 +122,13 @@ Features key information and advice for young women.
 
 An integrated APP button helps those interested in tracking their menstrual cycle. Using alt.
 
-![APP from Apple](https://cycles.app/) 
+![APP from Apple](https://cycles.app/)
 
 ---
 
 
 ### Contact Page
-[Contact](assets/image/testing-for-project/page-four.jpg)
+[Contact](/workspace/menstruation-guide-project-1/assets/image/testing-for-project/page-four.jpg)
 
 - Includes a customized input fields, contact form with required fields for visitors to ask questions.
 - All fields are required to be fulled out.
@@ -205,18 +205,28 @@ Extensive testing was conducted to ensure the website works across different bro
 ### Testing Responsiveness
 
 **Validator Testing**
-- **HTML:** Reported 5 errors were found when passing through the official W3C validator. Indentation, not closed <div>s. No images with alt in html. Author incorrectly entered.
+- **HTML:** Reported 5 errors were found when passing through the official W3C validator.    
+     - Indentation, not closed `div` tags. 
+     - Images are to be found in css, not html.
+     - Author now correctly entered.
+
 - **CSS:** No reported errors were found when passing through the official (Jigsaw) validator.
+---
 
-### Unfixed Bugs
+### Bugs
 
-** In html I have not added the images, as I have them in css so I could adjust the lighting on the images. This also shows as an error. **Otherwise there are no errors.
+- There are no bugs.
+- I have placed my images in css, not html.
+
+---
+
+## Lighthouse
 
 ![Mobile Phone](assets/image/testing-for-project/performance-handy.jpg)
 
 ![Computer](assets/image/testing-for-project/performance-pc.jpg)
 
-Tested for mobile and then on PC using the Lighthouse tool.
+---
 
 ## Roadmap
 
@@ -235,16 +245,18 @@ Include links to educational resources and ongoing research to empower users wit
 ### Partner Information
 Provide information for siblings, friends, and family members to help them understand and support the primary users.
 
+---
+
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
- - IN the [GitHub respository](https://github.com/kakilian/menstruation-guide-project-1),
+ - In [GitHub respository](https://github.com/kakilian/menstruation-guide-project-1),
  navigate to the **Settings** tab
  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
  - The page will automatically be refreshed with a detailed ribbon display to indicate the successful deployment.
 
  The live link can be found [here](https://kakilian.github.io/menstruation-guide-project-1/)
-
+---
 ### Local Deployment
 
 In order to make a local copy of this püroject, you can clone it.
