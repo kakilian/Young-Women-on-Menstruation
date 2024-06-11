@@ -8,7 +8,6 @@ This site can be accessed by this [link](https://kakilian.github.io/menstruation
 
 ---
 
-
 ## Table of Contents
 
 1. [Introduction](#introduction)
@@ -18,6 +17,7 @@ This site can be accessed by this [link](https://kakilian.github.io/menstruation
    - [Returning Visitors Goals](#returning-visitors-goals)
    - [Frequent Visitor Goals](#frequent-visitor-goals)
 4. [Features](#features)
+   - [Logo](#logo)
    - [Favicon](#favicon)
    - [Font](#font)
    - [Navbar](#navbar)
@@ -31,10 +31,17 @@ This site can be accessed by this [link](https://kakilian.github.io/menstruation
    - [Images and Their Meanings](#images-and-their-meanings)
    - [Footer](#footer)
 5. [Deployment](#deployment)
+   - [Local Deployment](#local-deployment)
 6. [Roadmap](#roadmap)
-7. [Testing Responsiveness](#testing-responsiveness)
-8. [Using Code from Other Sources](#using-code-from-other-sources)
-9. [Acknowledgements](#acknowledgements)
+7. [Testing](#testing)
+   - [Testing Responsiveness](#testing-responsiveness)
+   - [Validator Testing](#validator-testing)
+   - [Bugs](#bugs)
+   - [Lighthouse](#lighthouse)
+8. [Future Improvements](#future-improvements)
+9. [Using Code from Other Sources](#using-code-from-other-sources)
+10. [Acknowledgements](#acknowledgements)
+
 
 ---
 
@@ -76,6 +83,14 @@ Welcome to the Menstruation Guide for Young Women! This guide aims to empower yo
 ## Features
 
 This website consists of five pages, including a reply page after contact is made on the webpage.
+
+## Logo 
+
+The logo is shown throughout the website and is a part of the navigation bar. It features the text "Self-Care Guide for Young Women" to ensure consistent branding and easy recognition for users across all pages.
+
+![Logo](assets/image/testing-for-project/logo-pp1.png)
+
+
 
 ---
 
