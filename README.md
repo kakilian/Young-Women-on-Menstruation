@@ -41,7 +41,7 @@ This site can be accessed by this [link](https://kakilian.github.io/menstruation
 Welcome to the Menstruation Guide for Young Women! This guide aims to empower young women by offering them accurate information about menstruation, debunking myths, and promoting self-care practices. Our goal is to create a safe and supportive space where young women can learn, ask questions, and feel confident about their bodies.
 
 ## Balsamiq Usage
-![Wireframes](assets/image/wireframe.pdf)
+![Wireframes](assets/image/testing-for-project/balsamiq-pp1.pdf)
 
 ## User Stories
 
