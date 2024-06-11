@@ -123,6 +123,7 @@ Features key information and advice for young women.
 An integrated APP button helps those interested in tracking their menstrual cycle. Using alt.
 
 ![APP from Apple] https://cycles.app
+The APP is put in 'raw' form  in my readme#. The APP link was coming up as an error.
 
 ---
 
@@ -217,6 +218,7 @@ Extensive testing was conducted to ensure the website works across different bro
 
 - There are no bugs.
 - I have placed my images in css, not html.
+- The warning for line 47 adhering to my images. I have ignored, in this project I have put my images into css and not html pages. For easier control. 
 
 ---
 
@@ -264,7 +266,7 @@ In your IDE Terminal, type the following command to clone my repositiry:
 
    - `git clone https://github.com/kakilian/menstruation-guide-project-1.git`
 
-   - Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https://github.com/kakilian/menstruation-guide-project-1), which will start the GItpod workspace for you
+   - Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https://github.com/kakilian/menstruation-guide-project-1), which will start the Gitpod workspace for you
 
 ---
 
