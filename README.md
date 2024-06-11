@@ -145,7 +145,7 @@ Also there is a disclaimer passage, to make sure that the user will get the best
 
 
 ### Answer Page
-![Answer](assets/image/testing-for-project/page-five.jpg)
+![Answer](assets/image/testing-for-project/page-answer.png)
 
 A confirmation page informs users that their questions will be answered.
 - Response page appears after submitting the contact form.
