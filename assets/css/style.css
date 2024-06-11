@@ -262,9 +262,9 @@ nav {
 }
 
 .container-app {
-    width: 15%;
+    width: auto;
     height: 20%;
-    border: 1px solid #FF1493;
+    border: 3px solid #FF1493;
     border-radius: 15px 15px 15px 15px;
     padding: 1px;
     margin: 2px;
@@ -536,11 +536,12 @@ footer {
     /* Cycles styling app link*/
 
     .container-app {
-        display: flex;
-        width: 10%;
-        height: 2%;
-        border: 1px solid #FF1493;
+        font-size: 1em;
+        width: auto;
+        height: 4%;
+        border: 3px solid #FF1493;
         border-radius: 15px 15px 15px 15px;
+        padding: 2px;
         margin: 2px;
         background-color: #074f57;
 
@@ -601,9 +602,11 @@ footer {
 
     /* Cycles styling app link*/
     .container-app {
-        display: flex;
-        width: 5%;
+        font-size: 1.2em;
+        text-align: center;
+        width: auto;
         height: auto;
+        padding: 3px;
         border: 3px solid #FF1493;
         border-radius: 15px 15px 15px 15px;
         margin: 5px;
