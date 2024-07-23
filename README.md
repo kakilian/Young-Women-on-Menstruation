@@ -4,7 +4,7 @@ Welcome to the Menstruation Guide for Young Women! This guide is designed to be 
 
 This site can be accessed by this [link](https://kakilian.github.io/menstruation-guide-project-1/).
 
-![Am I responsive](assets/image/testing-for-project/amiresponsive.jpg)
+![Am I responsive](assets/image/testing-for-project/am.i.responsive.1.png)
 
 ---
 
@@ -54,7 +54,10 @@ Welcome to the Menstruation Guide for Young Women! This guide aims to empower yo
 
 
 ## Balsamiq Usage
-![Wireframes](assets/image/testing-for-project/balsamiq-pp1.pdf)
+![Wireframes](assets/image/wireframe.1.png)
+![Wireframes](assets/image/wireframe.2.png)
+![Wireframes](assets/image/wireframe.3.png)
+![Wireframes](assets/image/wireframe.4.png)
 
 ---
 
@@ -144,14 +147,14 @@ Features key information and advice for young women. The information provided to
 ### APP Button - "Cycle"
 
 An integrated APP button helps those interested in tracking their menstrual cycle.
-![APP from Apple](https://cycles.app)
+[APP from Apple](https://cycles.app)
 The APP link was coming up as an error.
 
 ---
 
 
 ### Contact Page
-![Contact](assets/image/testing-for-project/page-four.jpg)
+![Contact](assets/image/testing-for-project/pp1.contact.png)
 
 - Includes customized input fields, a contact form with required fields for visitors to ask questions.
 - All fields are required to be filled out.
@@ -164,7 +167,7 @@ The page is responsive on all common screen sizes. The submit button leads to th
 
 
 ### Answer Page
-![Answer](assets/image/testing-for-project/page-answer.png)
+![Answer](assets/image/testing-for-project/prompt.png)
 
 A confirmation page informs users that their questions will be answered. The response page appears after submitting the contact form. It contains a thank you message and the promise to get back in touch with the user.
 
@@ -215,13 +218,15 @@ Extensive testing was conducted to ensure the website works across different bro
 
 ### Testing Responsiveness
 
-**Validator Testing**
+**Validator Testing** ![W3C](assets/image/testing-for-project/validator.pp1.png)
 - **HTML:** Reported 5 errors when passing through the official W3C validator.    
      - Indentation, not closed `div` tags. 
      - Images are to be found in CSS, not HTML.
      - Author now correctly entered.
 
 - **CSS:** No reported errors were found when passing through the official (Jigsaw) validator.
+
+- As far as i know there are no bugs in this project
 
 ### Bugs
 
@@ -233,7 +238,7 @@ Extensive testing was conducted to ensure the website works across different bro
 
 ![Mobile Phone](assets/image/testing-for-project/performance-handy.jpg)
 
-![Computer](assets/image/testing-for-project/performance-pc.jpg)
+![Computer](assets/image/testing-for-project/lighthouse.png)
 
 ---
 
@@ -282,11 +287,12 @@ Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https:
 
 - Add a custom 404 page.
 - Improve the quality of the commit messages (I am aware
-
- that some of them do not meet the expected standards).
+  that some of them do not meet the expected standards).
 - Create a clearer page mix with images and text color (finding a suitable **free** color page).
 
+
 ---
+
 
 
 ## Using Code from Other Sources
@@ -294,6 +300,7 @@ Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https:
 - **Kevin Powell** (https://www.youtube.com/user/KepowOb)
 - **Love Running Project** - (https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/)
 - **GitHub Code Institute** (https://github.com/Code-Institute-Org/ci-full-template)
+
 
 ---
 
@@ -304,5 +311,6 @@ Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https:
 - **My Mentor, [Juliia](https://github.com/luliiaKonovalova):** For helping understand the target audience and the message, and supporting the idea.
 - **Slack Buddies and Tutors from [Code Institute](https://codeinstitute.net):** For helping with coding problems.
 - **[Kevin Powell](https://www.youtube.com/user/KepowOb):** For valuable coding tutorials and inspiration.
+
 
 ---
