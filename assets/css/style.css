@@ -253,8 +253,6 @@ nav {
     display: flex;
     flex: 0 0 0;
     color: yellow;
-    text-decoration: none;
-    font-weight: bold;
     transition: color, 3s ease;
 }
 
@@ -290,17 +288,18 @@ h2>.contact-text {
 /* Contact Form */
 
 .contact-form {
+    margin: 5px 15px 0px 5px;
     justify-content: center;
     align-items: center;
     max-width: 400px;
-    padding: 2px;
-    background-color: #074f57;
+    padding: 5px;
+    background-color: #333131;
     border: 1px solid #ff1493;
     border-radius: 5px;
 }
 
 .contact-form h2 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #ff1493;
     margin-top: 20px;
 }
@@ -315,9 +314,11 @@ h2>.contact-text {
 }
 
 .form-group label {
+    margin-top: 5px;
     display: block;
     font-weight: bold;
     color: #ff1493
+    
 }
 
 .form-group input,
