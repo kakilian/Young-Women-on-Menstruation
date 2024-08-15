@@ -43,7 +43,7 @@ This site can be accessed by this [link](https://kakilian.github.io/menstruation
 10. [Acknowledgements](#acknowledgements)
 
 
----
+
 
 
 ## Introduction
@@ -51,7 +51,6 @@ This site can be accessed by this [link](https://kakilian.github.io/menstruation
 Welcome to the Menstruation Guide for Young Women! This guide aims to empower young women by offering them accurate information about menstruation, debunking myths, and promoting self-care practices. Our goal is to create a safe and supportive space where young women can learn, ask questions, and feel confident about their bodies.
 This APP is built mainly for mobil telephones due to the target user, also avaliable on computer or ipad.
 
----
 
 
 ## Balsamiq Usage
@@ -60,7 +59,7 @@ This APP is built mainly for mobil telephones due to the target user, also avali
 ![Wireframes](assets/image/wireframe.3.png)
 ![Wireframes](assets/image/wireframe.4.png)
 
----
+
 
 
 ## User Stories
@@ -81,7 +80,7 @@ This APP is built mainly for mobil telephones due to the target user, also avali
 - **Question Response:** Check if questions have been answered promptly and respectfully.
 - **Privacy:** Expect privacy regarding asked questions.
 
----
+
 
 
 ## Features
@@ -96,29 +95,27 @@ The logo is shown throughout the website and is a part of the navigation bar. It
 
 
 
----
+
 
 
 ### Favicon
+
+
 ![Self-Help-Logo](assets/favicon/android-chrome-192x192.png)
 
 The favicon is simple and clear, indicating the website is made for teens. It is inclusive and designed to help everyone understand what is going on.
-
----
 
 
 ### Font
 
 I chose accessible fonts like Lato and Oswald. Although I considered a handwritten font, feedback indicated it might not be supported on all mobile phones, especially older models often used by my target audience.
 
----
 
 
 ### Navbar
 
 The navigation bar is present on all five pages for easy user control. It includes links to the logo, Home Page, Gallery, and Contact/Answer pages. It is identical on all pages, allowing for easy navigation.
 
----
 
 
 ### Homepage
@@ -126,15 +123,11 @@ The navigation bar is present on all five pages for easy user control. It includ
 
 Introduction from myself, and my role in the community as a mother, nurse, and friend. I have picked a faceless photo, as I believe at this age it can be an awkward stage in their lives. I also tried to keep it simple with only a short text to get the user to look further into the website.
 
----
-
 
 ### Hero Section
 ![Hero Section](assets/image/testing-for-project/3.png)
 
 Highlights the purpose of the website and its mission, providing a brief overview to help young women understand their bodies. The content is easy to understand and relatable.
-
----
 
 
 ### Highlights Section
@@ -142,16 +135,12 @@ Highlights the purpose of the website and its mission, providing a brief overvie
 
 Features key information and advice for young women. The information provided to the user is up-to-date and thoughtfully crafted for the target age group. The screen is easy to use and reachable through the toggled down menu tab. The colors used aim to give the viewer a safe environment feeling, encouraging them to reach out if needed.
 
----
-
 
 ### APP Button - "Cycle"
 
 An integrated APP button helps those interested in tracking their menstrual cycle.
 [APP from Apple](https://cycles.app)
 The APP link was coming up as an error.
-
----
 
 
 ### Contact Page
@@ -164,22 +153,16 @@ The APP link was coming up as an error.
 
 The page is responsive on all common screen sizes. The submit button leads to the response page. There is also a disclaimer passage to ensure that the user will get the best help needed at various times. Some countries have specialized doctors for women.
 
----
-
 
 ### Answer Page
 ![Answer](assets/image/testing-for-project/6.png)
 
 A confirmation page informs users that their questions will be answered. The response page appears after submitting the contact form. It contains a thank you message and the promise to get back in touch with the user.
 
----
-
 
 ### Footer
 
 The footer section includes links to relevant social media sites for this page. The links will open in a new tab, allowing the user easy access to both pages at once. The footer encourages the user to get connected via social media.
-
----
 
 
 ### Colors and Meanings
@@ -188,8 +171,6 @@ The footer section includes links to relevant social media sites for this page. 
 
 - **Greens:** Symbolize beginnings, new growth, vibrant health, and renewal.
 - **Pinks:** Symbolize femininity, compassion, and understanding.
-
----
 
 
 ### Images and Their Meanings
@@ -210,8 +191,6 @@ Emphasizes the target audience of pre-teens and teenagers.
 ![Surfer Girls](assets/image/surfer-girls.jpg)
 Represents strength, vitality, and empowerment.
 
----
-
 
 ## Testing 
 
@@ -219,12 +198,12 @@ Extensive testing was conducted to ensure the website works across different bro
 
 ### Testing Responsiveness
 
-**Validator Testing** ![W3C](assets/image/testing-for-project/passing.html.png)
-- **HTML:** Reported 5 errors when passing through the official W3C validator.    
+**Validator Testing** 
+- **HTML:** ![W3C](assets/image/testing-for-project/passing.html.png)Reported 5 errors when passing through the official W3C validator.    
      - Indentation, not closed `div` tags. 
      - Images are to be found in CSS, not HTML.
      - Author now correctly entered.
-     - Please see errors that have been left as they dont affect program.
+     - Please see errors that have been deliberately left.
 
 - **CSS:** ![W3C](assets/image/testing-for-project/css.validator.png)
 No reported errors were found when passing through the official (Jigsaw) validator.
@@ -242,8 +221,6 @@ No reported errors were found when passing through the official (Jigsaw) validat
 ![Mobile Phone](assets/image/testing-for-project/mobil.png)
 
 ![Computer](assets/image/testing-for-project/computer.png)
-
----
 
 
 ## Roadmap
@@ -263,8 +240,6 @@ Include links to educational resources and ongoing research to empower users wit
 ### Partner Information
 Provide information for siblings, friends, and family members to help them understand and support the primary users.
 
----
-
 
 ## Deployment
 
@@ -283,8 +258,6 @@ git clone https://github.com/kakilian/menstruation-guide-project-1.git
 ```
 Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https://github.com/kakilian/menstruation-guide-project-1), which will start the Gitpod workspace for you.
 
----
-
 
 ## Future (personal) Improvements
 
@@ -294,18 +267,11 @@ Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https:
 - Create a clearer page mix with images and text color (finding a suitable **free** color page).
 
 
----
-
-
-
 ## Using Code from Other Sources
 
 - **Kevin Powell** (https://www.youtube.com/user/KepowOb)
 - **Love Running Project** - (https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/)
 - **GitHub Code Institute** (https://github.com/Code-Institute-Org/ci-full-template)
-
-
----
 
 
 ## Acknowledgements
@@ -314,6 +280,3 @@ Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https:
 - **My Mentor, [Juliia](https://github.com/luliiaKonovalova):** For helping understand the target audience and the message, and supporting the idea.
 - **Slack Buddies and Tutors from [Code Institute](https://codeinstitute.net):** For helping with coding problems.
 - **[Kevin Powell](https://www.youtube.com/user/KepowOb):** For valuable coding tutorials and inspiration.
-
-
----
