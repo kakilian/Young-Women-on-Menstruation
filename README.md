@@ -4,7 +4,7 @@ Welcome to the Menstruation Guide for Young Women! This guide is designed to be 
 
 This site can be accessed by this [link](https://kakilian.github.io/menstruation-guide-project-1/).
 
-![Am I responsive](assets/image/testing-for-project/am.i.responsive.1.png)
+![Am I responsive](assets/image/testing-for-project/ami.png)
 
 ---
 
@@ -65,7 +65,7 @@ This APP is built mainly for mobil telephones due to the target user, also avali
 
 ## User Stories
 
----
+
 
 ### First Time Visitors Goals:
 - **Understanding:** Easily comprehensible information without feeling embarrassed or ashamed.
@@ -122,7 +122,7 @@ The navigation bar is present on all five pages for easy user control. It includ
 
 
 ### Homepage
-![Homepage](assets/image/testing-for-project/cover.jpg)
+![Homepage](assets/image/testing-for-project/2.png)
 
 Introduction from myself, and my role in the community as a mother, nurse, and friend. I have picked a faceless photo, as I believe at this age it can be an awkward stage in their lives. I also tried to keep it simple with only a short text to get the user to look further into the website.
 
@@ -130,7 +130,7 @@ Introduction from myself, and my role in the community as a mother, nurse, and f
 
 
 ### Hero Section
-![Hero Section](assets/image/testing-for-project/page-two.jpg)
+![Hero Section](assets/image/testing-for-project/3.png)
 
 Highlights the purpose of the website and its mission, providing a brief overview to help young women understand their bodies. The content is easy to understand and relatable.
 
@@ -138,7 +138,7 @@ Highlights the purpose of the website and its mission, providing a brief overvie
 
 
 ### Highlights Section
-![Gallery](assets/image/testing-for-project/page-three.jpg)
+![Gallery](assets/image/testing-for-project/4.png)
 
 Features key information and advice for young women. The information provided to the user is up-to-date and thoughtfully crafted for the target age group. The screen is easy to use and reachable through the toggled down menu tab. The colors used aim to give the viewer a safe environment feeling, encouraging them to reach out if needed.
 
@@ -155,7 +155,7 @@ The APP link was coming up as an error.
 
 
 ### Contact Page
-![Contact](assets/image/testing-for-project/pp1.contact.png)
+![Contact](assets/image/testing-for-project/5.png)
 
 - Includes customized input fields, a contact form with required fields for visitors to ask questions.
 - All fields are required to be filled out.
@@ -168,7 +168,7 @@ The page is responsive on all common screen sizes. The submit button leads to th
 
 
 ### Answer Page
-![Answer](assets/image/testing-for-project/prompt.png)
+![Answer](assets/image/testing-for-project/6.png)
 
 A confirmation page informs users that their questions will be answered. The response page appears after submitting the contact form. It contains a thank you message and the promise to get back in touch with the user.
 
@@ -219,13 +219,15 @@ Extensive testing was conducted to ensure the website works across different bro
 
 ### Testing Responsiveness
 
-**Validator Testing** ![W3C](assets/image/testing-for-project/validator.pp1.png)
+**Validator Testing** ![W3C](assets/image/testing-for-project/passing.html.png)
 - **HTML:** Reported 5 errors when passing through the official W3C validator.    
      - Indentation, not closed `div` tags. 
      - Images are to be found in CSS, not HTML.
      - Author now correctly entered.
+     - Please see errors that have been left as they dont affect program.
 
-- **CSS:** No reported errors were found when passing through the official (Jigsaw) validator.
+- **CSS:** ![W3C](assets/image/testing-for-project/css.validator.png)
+No reported errors were found when passing through the official (Jigsaw) validator.
 
 - As far as i know there are no bugs in this project
 
@@ -237,9 +239,9 @@ Extensive testing was conducted to ensure the website works across different bro
 
 ## Lighthouse
 
-![Mobile Phone](assets/image/testing-for-project/performance-handy.jpg)
+![Mobile Phone](assets/image/testing-for-project/mobil.png)
 
-![Computer](assets/image/testing-for-project/lighthouse.png)
+![Computer](assets/image/testing-for-project/computer.png)
 
 ---
 
