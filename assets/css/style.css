@@ -19,7 +19,6 @@ body {
     color: #ffffff;
     line-height: 1.2;
     background-color: #e7dfdf;
-    font-weight: 700;
 }
 
 /* Photos */
@@ -131,7 +130,7 @@ body {
     border-radius: 15px 15px 15px 15px;
     padding: 5px;
     margin: 10px;
-    background-color: #074f57;
+    background-color: #333131;
 }
 
 /* Header */
@@ -175,6 +174,8 @@ h1 {
 h2 {
     text-transform: uppercase;
     margin-top: 80px;
+    text-decoration-line: underline;
+    background-color: #333131;
 }
 
 h3 {
